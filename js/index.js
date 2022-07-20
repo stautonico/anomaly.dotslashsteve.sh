@@ -1,0 +1,51 @@
+const CONTAINER = document.querySelector('#container');
+const AUDIO = document.querySelector('#audio');
+const VOLUME = document.querySelector('#volume');
+const VOLUME_VALUE = document.querySelector('#volume-value');
+
+VOLUME.addEventListener('input', () => {
+    VOLUME_VALUE.textContent = `${VOLUME.value}%`;
+    AUDIO.volume = VOLUME.value / 100;
+});
+
+
+function play_sound(sound) {
+    AUDIO.src = sound;
+    AUDIO.play();
+}
+
+
+function generate_button(title, audio_file, youtube_video_title, youtube_video_url) {
+    let button_container = document.createElement('div');
+    button_container.classList.add('button-container');
+    let button = document.createElement('button');
+    button.classList.add('button');
+    button.textContent = title;
+    button_container.onclick = (e) => {
+        if (e.target.classList.contains('button'))
+            play_sound("/audio/" + audio_file);
+    }
+    button_container.appendChild(button);
+
+    let tooltip = `
+    <span>
+        <span class="download">
+            <img class="icon" src="/img/svg/info.svg" alt="Info" height="24em" width="24em" />
+            <span class="tooltip">
+                From <a href="${youtube_video_url}" target="_blank">${youtube_video_title}</a>
+             </span>
+            </span>
+            
+        <a href="audio/${audio_file}" download="${audio_file}">
+            <img class="icon download-icon" src="/img/svg/download.svg" alt="Download" height="24em" width="24em" />
+        </a>
+    </span>
+    `;
+
+    button_container.innerHTML += tooltip;
+    return button_container;
+}
+
+function make_stop_button() {
+    CONTAINER.appendChild(generate_button("STOP", "", "", ""));
+}
