@@ -35,44 +35,39 @@ body {
     padding: 0;
 }
 
-/* use viewport-relative units to cover page fully */
 body {
     height: 100vh;
     width: 100vw;
 }
 
-/* include border and padding in element width and height */
 * {
     box-sizing: border-box;
 }
 
-/* full-sized  container that fills up the page */
 #page {
     height: 100%;
     width: 100%;
 
-    /* example padding, font-size, background, etc */
     padding: 10px;
     font-size: 20px;
-    background-color: #c6c6c6;
+    background-color: #efefef;
 }
 
 button {
-    /* example button styling */
-    background-color: lightblue;
+    background-color: #00bbff;
     border: 1px solid black;
-    /*padding: 10px;*/
     cursor: pointer;
     transition: all 100ms ease-in-out;
-    /* Set a fixed size */
     width: 12rem;
     height: 8rem;
+
+    border-radius: 10px;
 
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
-    line-height: 2rem; /* a */
-    max-height: 12rem; /* a x number of line to show (ex : 2 line)  */
+    line-height: 2rem;
+    max-height: 12rem;
     font-size: 1.5rem;
 
 }
@@ -101,7 +96,6 @@ button:disabled {
     background-color: #f5f5f5;
     border-radius: 5px;
     padding: 1em;
-    /*margin: 1em;*/
     font-size: 1.2em;
     font-weight: bold;
     text-align: center;
@@ -217,4 +211,41 @@ input[type=range]::-webkit-slider-runnable-track {
 
 #stop-button:hover {
     background-color: #ff3434;
+}
+
+#anomaly-pog {
+    transform: translateY(40%);
+    height: 2em;
+    transition: transform 250ms ease-in-out;
+}
+
+#anomaly-pog:hover {
+    cursor: pointer;
+    transform: scale(1.2)
+}
+
+#anomaly {
+    cursor: pointer;
+}
+
+.shake {
+    animation: shake 250ms infinite;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
 }

@@ -2,10 +2,53 @@ const CONTAINER = document.querySelector('#container');
 const AUDIO = document.querySelector('#audio');
 const VOLUME = document.querySelector('#volume');
 const VOLUME_VALUE = document.querySelector('#volume-value');
+const ANOMALY_POG = document.querySelector('#anomaly-pog');
+const ANOMALY_TITLE = document.querySelector('#anomaly');
+
+let correctTitle = true;
 
 VOLUME.addEventListener('input', () => {
     VOLUME_VALUE.textContent = `${VOLUME.value}%`;
     AUDIO.volume = VOLUME.value / 100;
+});
+
+ANOMALY_POG.addEventListener("click", (e) => {
+    // Pick a random number between 0 and 4
+    let random = Math.floor(Math.random() * 5);
+    let toPlay;
+    switch (random) {
+        case 0:
+        case 1:
+            toPlay = "audio/hey_guys_anomaly_here_INTRO.mp3";
+            break;
+        case 2:
+        case 3:
+            toPlay = "audio/hellopapa_INTRO.mp3";
+            break;
+        case 4: {
+            toPlay = "audio/hellogais_INTRO.mp3";
+            ANOMALY_POG.classList.add("shake");
+            setTimeout(() => {
+                ANOMALY_POG.classList.remove("shake");
+            }, 1141);
+            break;
+        }
+    }
+    play_sound(toPlay);
+});
+
+ANOMALY_TITLE.addEventListener('click', (e) => {
+    if (correctTitle) {
+        ANOMALY_TITLE.textContent = "Analmaly";
+        correctTitle = false;
+        setTimeout(() => {
+            ANOMALY_TITLE.textContent = "Anomaly";
+            correctTitle = true;
+        }, 10000);
+    } else {
+        ANOMALY_TITLE.textContent = "Anomaly";
+        correctTitle = true;
+    }
 });
 
 

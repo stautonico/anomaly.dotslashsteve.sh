@@ -94,24 +94,23 @@ AUDIO_FILES = {k: v for k, v in sorted(AUDIO_FILES.items(), key=lambda item: ite
 
 
 def build():
-#     # Remove the existing build directory if it exists
-#     if os.path.exists("dist"):
-#         shutil.rmtree("dist")
-#     os.mkdir("dist")
-#
-#     # Copy all the static assets into the build directory
-#     shutil.copytree("audio", "dist/audio")
-#     shutil.copytree("css", "dist/css")
-#     shutil.copytree("img", "dist/img")
-#     shutil.copytree("js", "dist/js")
-#     shutil.copy("index.html", "dist/index.html")
-#
-#     # Open up the js/index.js and apply the button scripts
-#     with open("dist/js/index.js", "a") as f:
-    for audio_file, data in AUDIO_FILES.items():
-        print(f"""CONTAINER.appendChild(generate_button("{data['title']}", "{audio_file}", "{data['youtube_title']}", "{data['youtube_url']}"));\n""")
-#         f.write(
-#             f"""CONTAINER.appendChild(generate_button("{data['title']}", "{audio_file}", "{data['youtube_title']}", "{data['youtube_url']}"));\n""")
+    # Remove the existing build directory if it exists
+    if os.path.exists("dist"):
+        shutil.rmtree("dist")
+    os.mkdir("dist")
+
+    # Copy all the static assets into the build directory
+    shutil.copytree("audio", "dist/audio")
+    shutil.copytree("css", "dist/css")
+    shutil.copytree("img", "dist/img")
+    shutil.copytree("js", "dist/js")
+    shutil.copy("index.html", "dist/index.html")
+
+    # Open up the js/index.js and apply the button scripts
+    with open("dist/js/index.js", "a") as f:
+        for audio_file, data in AUDIO_FILES.items():
+            f.write(
+                f"""CONTAINER.appendChild(generate_button("{data['title']}", "{audio_file}", "{data['youtube_title']}", "{data['youtube_url']}"));\n""")
 
 
 if __name__ == '__main__':
