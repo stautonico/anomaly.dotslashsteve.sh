@@ -46,6 +46,6 @@ function generate_button(title, audio_file, youtube_video_title, youtube_video_u
     return button_container;
 }
 
-function make_stop_button() {
-    CONTAINER.appendChild(generate_button("STOP", "", "", ""));
+function stop_playing() {
+    AUDIO.pause();
 }

@@ -61,13 +61,20 @@ button {
     /* example button styling */
     background-color: lightblue;
     border: 1px solid black;
-    padding: 10px;
-    font-size: 20px;
+    /*padding: 10px;*/
     cursor: pointer;
     transition: all 100ms ease-in-out;
     /* Set a fixed size */
-    width: 8em;
-    height: 3em;
+    width: 12rem;
+    height: 8rem;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    line-height: 2rem; /* a */
+    max-height: 12rem; /* a x number of line to show (ex : 2 line)  */
+    font-size: 1.5rem;
+
 }
 
 button:hover {
@@ -86,7 +93,7 @@ button:disabled {
 .wrapper {
     display: grid;
     grid-template-columns: repeat(var(--column-count), 1fr);
-    gap: 1em;
+    gap: 0.5em;
 }
 
 
@@ -105,6 +112,7 @@ button:disabled {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 9.5em;
 }
 
 .download .tooltip {
@@ -119,6 +127,7 @@ button:disabled {
 
 .tooltip {
     position: relative;
+    transform: translateY(-10px);
 }
 
 .tooltip a {
@@ -192,4 +201,20 @@ input[type=range]::-webkit-slider-runnable-track {
     cursor: pointer;
     background: #2ea44f;
     border-radius: 3px;
+}
+
+#stop-button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin: 1em;
+    background-color: red;
+    transition: background-color 250ms ease-in-out;
+}
+
+#stop-button:hover {
+    background-color: #ff3434;
 }
