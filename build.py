@@ -86,6 +86,31 @@ AUDIO_FILES = {
         "title": "ебанить фармер блять",
         "youtube_title": "LAN PARTY WITH ANOMALY AND FRIENDS (PART 1)",
         "youtube_url": "https://www.youtube.com/watch?v=cpGwQTAZpBE&t=134s"
+    },
+    "oh_anomaly.mp3": {
+        "title": "Oh, Anomaly",
+        "youtube_title": "ANOMALY GOES TO AFRICA",
+        "youtube_url": "https://www.youtube.com/watch?v=FDWrgsmj2wg&t=430s"
+    },
+    "gotta_catch_em_all.mp3": {
+        "title": "Gotta Catch 'em All!",
+        "youtube_title": "Pokemon GO with Anomaly (Highlights)",
+        "youtube_url": "https://www.youtube.com/watch?v=TKU-daPcu18&t=81s"
+    },
+    "obama_moment.mp3": {
+        "title": "Obama Moment",
+        "youtube_title": "TWITCH HIGHLIGHTS 30 - OBAMA MOMENT",
+        "youtube_url": "https://www.youtube.com/watch?v=JmonvSPRhnY&t=403s"
+    },
+    "let_me_hit_a_bullet.mp3": {
+        "title": "Let Me Hit A Bullet",
+        "youtube_title": "TWITCH HIGHLIGHTS 30 - OBAMA MOMENT",
+        "youtube_url": "https://www.youtube.com/watch?v=JmonvSPRhnY&t=536s"
+    },
+    "that_disgusting_damn_pedophile.mp3": {
+        "title": "That Disgusting Damn Pedophile",
+        "youtube_title": "Halloween with Papanomaly",
+        "youtube_url": "https://www.youtube.com/watch?v=yckbAFrHgdM&t=487s"
     }
 }
 
