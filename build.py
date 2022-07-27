@@ -111,6 +111,66 @@ AUDIO_FILES = {
         "title": "That Disgusting Damn Pedophile",
         "youtube_title": "Halloween with Papanomaly",
         "youtube_url": "https://www.youtube.com/watch?v=yckbAFrHgdM&t=487s"
+    },
+    "rip_rapacens_mother.mp3": {
+        "title": "RIP Rapacen's Mother",
+        "youtube_title": "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)",
+        "youtube_url": "https://www.youtube.com/watch?v=E7kacgom97s&t=377s"
+    },
+    "i_hate_you_dont_moan_again.mp3": {
+        "title": "I Hate You, Don't Moan Again",
+        "youtube_title": "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)",
+        "youtube_url": "https://www.youtube.com/watch?v=E7kacgom97s&t=387s"
+    },
+    "matchmaking_in_the_zoo.mp3": {
+        "title": "Matchmaking In The Zoo",
+        "youtube_title": "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)",
+        "youtube_url": "https://www.youtube.com/watch?v=E7kacgom97s&t=441s"
+    },
+    "carlson_drowns.mp3": {
+        "title": "Carlson Drowns",
+        "youtube_title": "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)",
+        "youtube_url": "https://www.youtube.com/watch?v=E7kacgom97s&t=417s"
+    },
+    "papa_is_depressed.mp3": {
+        "title": "Papa Is Depressed",
+        "youtube_title": "Anomaly Tries Surströmming",
+        "youtube_url": "https://www.youtube.com/watch?v=nCCvctadPD8&t=31s"
+    },
+    "sleeping_bag.mp3": {
+        "title": "\\\"Sleeping Bag\\\"",
+        "youtube_title": "Anomaly Tries Surströmming",
+        "youtube_url": "https://www.youtube.com/watch?v=nCCvctadPD8&t=92s"
+    },
+    "dont_burn_down_the_house.mp3": {
+        "title": "Don't Burn Down The House",
+        "youtube_title": "Anomaly Tries Surströmming",
+        "youtube_url": "https://www.youtube.com/watch?v=nCCvctadPD8&t=199s"
+    },
+    "OMFG.mp3": {
+        "title": "OMFG",
+        "youtube_title": "Anomaly Tries Surströmming",
+        "youtube_url": "https://www.youtube.com/watch?v=nCCvctadPD8&t=222s"
+    },
+    "pull_a_phantomlord.mp3": {
+        "title": "Pull A PhantomL0rd",
+        "youtube_title": "Anomaly Tries Surströmming",
+        "youtube_url": "https://www.youtube.com/watch?v=nCCvctadPD8&t=249s"
+    },
+    "melons.mp3": {
+        "title": "🍉",
+        "youtube_title": "FREE TO PLAY \\\"COUNTER-STRIKE\\\" GAMES 2",
+        "youtube_url": "https://www.youtube.com/watch?v=LiDmJ3UuItM&t=589s"
+    },
+    "face_reveal_laugh.mp3": {
+        "title": "Face Reveal Laughs",
+        "youtube_title": "24-Hour 4000 Case Opening Stream (VOD no longer available)",
+        "youtube_url": "#"
+    },
+    "hotdog_ad.mp3": {
+        "title": "Se c'è AiA, c'è gioia",
+        "youtube_title": "GOOGLING MYSELF (FACE EXPOSED BY FAN?)",
+        "youtube_url": "https://www.youtube.com/watch?v=0597gJaYlP4&t=419s"
     }
 }
 

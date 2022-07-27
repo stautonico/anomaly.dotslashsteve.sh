@@ -5,6 +5,8 @@ const VOLUME_VALUE = document.querySelector('#volume-value');
 const ANOMALY_POG = document.querySelector('#anomaly-pog');
 const ANOMALY_TITLE = document.querySelector('#anomaly');
 
+let last_POG_number = null;
+
 let correctTitle = true;
 
 VOLUME.addEventListener('input', () => {
@@ -13,19 +15,21 @@ VOLUME.addEventListener('input', () => {
 });
 
 ANOMALY_POG.addEventListener("click", (e) => {
-    // Pick a random number between 0 and 4
-    let random = Math.floor(Math.random() * 5);
+    // Pick a random number between 0 and 2
+    let random = Math.floor(Math.random() * 3);
+    while (random === last_POG_number) {
+        random = Math.floor(Math.random() * 3);
+    }
+    last_POG_number = random;
     let toPlay;
     switch (random) {
         case 0:
-        case 1:
             toPlay = "audio/hey_guys_anomaly_here_INTRO.mp3";
             break;
-        case 2:
-        case 3:
+        case 1:
             toPlay = "audio/hellopapa_INTRO.mp3";
             break;
-        case 4: {
+        case 2: {
             toPlay = "audio/hellogais_INTRO.mp3";
             ANOMALY_POG.classList.add("shake");
             setTimeout(() => {
