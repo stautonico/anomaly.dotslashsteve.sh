@@ -1,0 +1,14 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:layout": "node test_layout.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pageres": "^6.3.1"
+  }
+}

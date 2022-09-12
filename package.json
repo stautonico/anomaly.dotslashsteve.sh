@@ -1,0 +1,31 @@
+{
+  "name": "anomaly.dotslashsteve.sh",
+  "version": "1.0.0",
+  "description": "A soundboard of all my favorite anomaly clips :)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "python3 build.py && npm run less",
+    "less": "lessc css/index.less dist/css/index.css",
+    "dev": "nodemon --watch css --watch js --watch index.html --watch build.py --exec \"npm run start\"",
+    "start": "yarn build && cd dist && python3 -m http.server 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stautonico/anomaly.dotslashsteve.sh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stautonico/anomaly.dotslashsteve.sh/issues"
+  },
+  "homepage": "https://github.com/stautonico/anomaly.dotslashsteve.sh#readme",
+  "devDependencies": {
+    "less": "^4.1.3",
+    "nodemon": "^2.0.19",
+    "sass": "^1.54.9"
+  }
+}
