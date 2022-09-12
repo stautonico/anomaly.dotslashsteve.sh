@@ -1,14 +1,3 @@
-:root {
-  --text-primary: #000;
-  --text-secondary: #666;
-  --background: #fff;
-  --light-text-primary: #000000;
-  --light-text-secondary: #333;
-  --light-background: #ffd54f;
-  --dark-text-primary: #ffd54f;
-  --dark-text-secondary: #ffd54f;
-  --dark-background: #333;
-}
 /* oxygen-300 - latin */
 @font-face {
   font-family: 'Oxygen';
@@ -66,7 +55,7 @@ h1 span {
 }
 button {
   background-color: #333;
-  border: 1px solid black;
+  border: 0 solid rgba(0, 0, 0, 0);
   cursor: pointer;
   transition: all 100ms ease-in-out;
   width: 12rem;
@@ -94,14 +83,6 @@ button:disabled {
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   gap: 0.5em;
 }
-.item {
-  background-color: #f5f5f5;
-  border-radius: 5px;
-  padding: 1em;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-align: center;
-}
 .button-container {
   display: flex;
   flex-direction: column;
@@ -112,10 +93,10 @@ button:disabled {
 .download .tooltip {
   display: none;
   position: absolute;
-  color: black;
-  background: #d5d5d5;
+  color: #fff;
+  background: #666666;
   padding: 5px;
-  border: 1px solid black;
+  border: 1px solid #fff;
   border-radius: 5px;
 }
 .tooltip {
@@ -123,12 +104,12 @@ button:disabled {
   transform: translateY(-10px);
 }
 .tooltip a {
-  color: #003dff;
+  color: #D52941;
   text-decoration: none;
   transition: color 250ms ease-in-out;
 }
 .tooltip a:hover {
-  color: #8c31ff;
+  color: #41d529;
 }
 .download:hover .tooltip {
   display: block;
@@ -151,42 +132,6 @@ button:disabled {
   transform: scale(1.2);
   cursor: pointer;
 }
-/* Customize the "thumb" */
-input[type=range]::-moz-range-thumb {
-  background: white;
-  border: 1px solid black;
-  width: 16px;
-  height: 36px;
-  border-radius: 3px;
-  cursor: pointer;
-}
-input[type=range]::-webkit-slider-thumb {
-  background: white;
-  border: 1px solid black;
-  width: 16px;
-  height: 36px;
-  border-radius: 3px;
-  cursor: pointer;
-  margin-top: -12px;
-  /* Chrome has weird alignment issues.
-  We need to offset the top margin by 1/3 of the height of the "thumb" */
-}
-/* Customize the "track" which is the bar the "thumb" is on top of */
-input[type=range]::-moz-range-track {
-  width: 100%;
-  height: 8px;
-  cursor: pointer;
-  background: #2ea44f;
-  border-radius: 3px;
-}
-/* I had to separate these out, comma-separated them in one selector seems to not work */
-input[type=range]::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 8px;
-  cursor: pointer;
-  background: #2ea44f;
-  border-radius: 3px;
-}
 #stop-button {
   position: fixed;
   bottom: 0;
@@ -195,20 +140,25 @@ input[type=range]::-webkit-slider-runnable-track {
   width: 5rem;
   height: 5rem;
   margin: 1em;
-  background-color: red;
-  transition: background-color 250ms ease-in-out;
+  background-color: #D52941;
+  transition: background-color 250ms ease-in-out, box-shadow 175ms ease-in-out;
 }
 #stop-button:hover {
-  background-color: #ff3434;
+  background-color: #da3e53;
+}
+#stop-button:active {
+  box-shadow: inset 0 0 16px 0.25em rgba(0, 0, 0, 0.2);
 }
 #anomaly-pog {
   transform: translateY(40%);
   height: 2em;
-  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, filter 250ms ease-in-out, -webkit-filter 250ms ease-in-out;
 }
 #anomaly-pog:hover {
   cursor: pointer;
   transform: scale(1.2);
+  -webkit-filter: drop-shadow(2px 2px 0 #D52941) drop-shadow(-2px 2px 0 #D52941) drop-shadow(2px -2px 0 #D52941) drop-shadow(-2px -2px 0 #D52941);
+  filter: drop-shadow(2px 2px 0 #D52941) drop-shadow(-2px 2px 0 #D52941) drop-shadow(2px -2px 0 #D52941) drop-shadow(-2px -2px 0 #D52941);
 }
 #anomaly {
   cursor: pointer;
@@ -234,4 +184,76 @@ input[type=range]::-webkit-slider-runnable-track {
   60% {
     transform: translate3d(4px, 0, 0);
   }
+}
+::selection {
+  background: rgba(77, 77, 77, 0.75);
+}
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 40px/2 0;
+  width: 40vw;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 40vw;
+  height: 10px;
+  cursor: pointer;
+  background: #333;
+  border-radius: 25px;
+}
+input[type=range]::-webkit-slider-thumb {
+  height: 40px;
+  width: 20px;
+  border-radius: 8px;
+  background: #D52941;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -15px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #333;
+}
+input[type=range]::-moz-range-track {
+  width: 40vw;
+  height: 10px;
+  cursor: pointer;
+  background: #333;
+  border-radius: 25px;
+}
+input[type=range]::-moz-range-thumb {
+  height: 40px;
+  width: 20px;
+  border-radius: 8px;
+  background: #D52941;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 40vw;
+  height: 10px;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #333;
+  border-radius: 50px;
+}
+input[type=range]::-ms-fill-upper {
+  background: #333;
+  border-radius: 50px;
+}
+input[type=range]::-ms-thumb {
+  height: 40px;
+  width: 20px;
+  border-radius: 8px;
+  background: #D52941;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #333;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #333;
 }
