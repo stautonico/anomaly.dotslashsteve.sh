@@ -224,6 +224,9 @@ def build():
     shutil.copytree("css", "dist/css")
     shutil.copytree("img", "dist/img")
     shutil.copytree("js", "dist/js")
+    shutil.copytree("fonts", "dist/fonts")
+    shutil.copy("browserconfig.xml", "dist/")
+    shutil.copy("manifest.json", "dist/")
     shutil.copy("index.html", "dist/index.html")
 
     # Open up the js/index.js and apply the button scripts
