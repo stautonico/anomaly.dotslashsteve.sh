@@ -26,7 +26,7 @@ jobs:
 
       - name: Install NPM Dependencies and Build
         run: |
-          npm ci
+          npm install
           npm run build
 
       - name: Deploy 🚀
