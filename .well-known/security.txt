@@ -1,0 +1,5 @@
+Contact: mailto:stautonico@gmail.com?subject=dotslashsteve.sh%20security%20issue
+Expires: Fri, 1 Apr 2023 12:01 -0400
+Encryption: https://stautonico.keybase.pub/public_pgp.txt
+Preferred-Languages: en
+Canonical: https://anomaly.dotslashsteve.sh/.well-known/security.txt
