@@ -1,251 +1,237 @@
-/* Extra small devices (portrait phones, less than 576px) */
-/* Not officially supported, but I'll add a little so it's not completely unusable */
-
-/* Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 576px) {
-    :root {
-        --column-count: 3;
-    }
+:root {
+  --text-primary: #000;
+  --text-secondary: #666;
+  --background: #fff;
+  --light-text-primary: #000000;
+  --light-text-secondary: #333;
+  --light-background: #ffd54f;
+  --dark-text-primary: #ffd54f;
+  --dark-text-secondary: #ffd54f;
+  --dark-background: #333;
 }
-
-/* Medium devices (tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    :root {
-        --column-count: 5;
-    }
+/* oxygen-300 - latin */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/oxygen-v15-latin-300.eot');
+  /* IE9 Compat Modes */
+  src: local(''), url('../fonts/oxygen-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/oxygen-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/oxygen-v15-latin-300.woff') format('woff'), /* Modern Browsers */ url('../fonts/oxygen-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/oxygen-v15-latin-300.svg#Oxygen') format('svg');
+  /* Legacy iOS */
 }
-
-/* Large devices (desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    :root {
-        --column-count: 6;
-    }
+/* oxygen-regular - latin */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/oxygen-v15-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''), url('../fonts/oxygen-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/oxygen-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/oxygen-v15-latin-regular.woff') format('woff'), /* Modern Browsers */ url('../fonts/oxygen-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/oxygen-v15-latin-regular.svg#Oxygen') format('svg');
+  /* Legacy iOS */
 }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    :root {
-        --column-count: 5;
-    }
+/* oxygen-700 - latin */
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/oxygen-v15-latin-700.eot');
+  /* IE9 Compat Modes */
+  src: local(''), url('../fonts/oxygen-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/oxygen-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/oxygen-v15-latin-700.woff') format('woff'), /* Modern Browsers */ url('../fonts/oxygen-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/oxygen-v15-latin-700.svg#Oxygen') format('svg');
+  /* Legacy iOS */
 }
-
+* {
+  font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+}
 html,
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 body {
-    height: 100vh;
-    width: 100vw;
+  min-height: 100vh;
+  width: 100vw;
 }
-
-* {
-    box-sizing: border-box;
+h1,
+h1 span {
+  color: #000;
 }
-
 #page {
-    height: 100%;
-    width: 100%;
-
-    padding: 10px;
-    font-size: 20px;
-    background-color: #efefef;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #ffd54f;
 }
-
 button {
-    background-color: #00bbff;
-    border: 1px solid black;
-    cursor: pointer;
-    transition: all 100ms ease-in-out;
-    width: 12rem;
-    height: 8rem;
-
-    border-radius: 10px;
-
-    overflow: hidden;
-    text-overflow: ellipsis;
-    word-wrap: break-word;
-    line-height: 2rem;
-    max-height: 12rem;
-    font-size: 1.5rem;
-
+  background-color: #333;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  width: 12rem;
+  height: 8rem;
+  border-radius: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  line-height: 2rem;
+  max-height: 12rem;
+  font-size: 1.5rem;
 }
-
 button:hover {
-    background-color: lightgreen;
+  background-color: #4d4d4d;
 }
-
 button:active {
-    background-color: #3bdf3b;
+  background-color: #666666;
 }
-
 button:disabled {
-    background-color: lightgray;
-    cursor: not-allowed;
+  background-color: lightgray;
+  cursor: not-allowed;
 }
-
 .wrapper {
-    display: grid;
-    grid-template-columns: repeat(var(--column-count), 1fr);
-    gap: 0.5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 0.5em;
 }
-
-
 .item {
-    background-color: #f5f5f5;
-    border-radius: 5px;
-    padding: 1em;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
 }
-
 .button-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 9.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 9.5em;
 }
-
 .download .tooltip {
-    display: none;
-    position: absolute;
-    color: black;
-    background: #d5d5d5;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 5px;
+  display: none;
+  position: absolute;
+  color: black;
+  background: #d5d5d5;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
-
 .tooltip {
-    position: relative;
-    transform: translateY(-10px);
+  position: relative;
+  transform: translateY(-10px);
 }
-
 .tooltip a {
-    color: #003dff;
-    text-decoration: none;
-    transition: color 250ms ease-in-out;
+  color: #003dff;
+  text-decoration: none;
+  transition: color 250ms ease-in-out;
 }
-
 .tooltip a:hover {
-    color: #8c31ff;
+  color: #8c31ff;
 }
-
 .download:hover .tooltip {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
-
 .icon {
-    margin: 0.25em 0.125em;
+  margin: 0.25em 0.125em;
 }
-
 .download-icon {
-    transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
 }
-
-.download-icon:hover, .download-icon a:hover, .download-icon a:active {
-    cursor: pointer;
-    transform: scale(1.2);
+.download-icon:hover,
+.download-icon a:hover,
+.download-icon.download-icon a:active {
+  cursor: pointer;
+  transform: scale(1.2);
 }
-
-.download-icon a:active, .download-icon:active {
-    transform: scale(1.2);
-    cursor: pointer;
+.download-icona:active,
+.download-icon.download-icon:active {
+  transform: scale(1.2);
+  cursor: pointer;
 }
-
 /* Customize the "thumb" */
 input[type=range]::-moz-range-thumb {
-    background: white;
-    border: 1px solid black;
-    width: 16px;
-    height: 36px;
-    border-radius: 3px;
-    cursor: pointer;
+  background: white;
+  border: 1px solid black;
+  width: 16px;
+  height: 36px;
+  border-radius: 3px;
+  cursor: pointer;
 }
-
 input[type=range]::-webkit-slider-thumb {
-    background: white;
-    border: 1px solid black;
-    width: 16px;
-    height: 36px;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-top: -12px;
-    /* Chrome has weird alignment issues.
-    We need to offset the top margin by 1/3 of the height of the "thumb" */
+  background: white;
+  border: 1px solid black;
+  width: 16px;
+  height: 36px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: -12px;
+  /* Chrome has weird alignment issues.
+  We need to offset the top margin by 1/3 of the height of the "thumb" */
 }
-
 /* Customize the "track" which is the bar the "thumb" is on top of */
 input[type=range]::-moz-range-track {
-    width: 100%;
-    height: 8px;
-    cursor: pointer;
-    background: #2ea44f;
-    border-radius: 3px;
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: #2ea44f;
+  border-radius: 3px;
 }
-
 /* I had to separate these out, comma-separated them in one selector seems to not work */
 input[type=range]::-webkit-slider-runnable-track {
-    width: 100%;
-    height: 8px;
-    cursor: pointer;
-    background: #2ea44f;
-    border-radius: 3px;
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: #2ea44f;
+  border-radius: 3px;
 }
-
 #stop-button {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    margin: 1em;
-    background-color: red;
-    transition: background-color 250ms ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin: 1em;
+  background-color: red;
+  transition: background-color 250ms ease-in-out;
 }
-
 #stop-button:hover {
-    background-color: #ff3434;
+  background-color: #ff3434;
 }
-
 #anomaly-pog {
-    transform: translateY(40%);
-    height: 2em;
-    transition: transform 250ms ease-in-out;
+  transform: translateY(40%);
+  height: 2em;
+  transition: transform 250ms ease-in-out;
 }
-
 #anomaly-pog:hover {
-    cursor: pointer;
-    transform: scale(1.2)
+  cursor: pointer;
+  transform: scale(1.2);
 }
-
 #anomaly {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 .shake {
-    animation: shake 250ms infinite;
+  animation: shake 250ms infinite;
 }
-
 @keyframes shake {
-    10%, 90% {
-        transform: translate3d(-1px, 0, 0);
-    }
-
-    20%, 80% {
-        transform: translate3d(2px, 0, 0);
-    }
-
-    30%, 50%, 70% {
-        transform: translate3d(-4px, 0, 0);
-    }
-
-    40%, 60% {
-        transform: translate3d(4px, 0, 0);
-    }
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }

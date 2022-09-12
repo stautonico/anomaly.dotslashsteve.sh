@@ -171,6 +171,41 @@ AUDIO_FILES = {
         "title": "Se c'è AiA, c'è gioia",
         "youtube_title": "GOOGLING MYSELF (FACE EXPOSED BY FAN?)",
         "youtube_url": "https://www.youtube.com/watch?v=0597gJaYlP4&t=419s"
+    },
+    "sauce_vindaloo.mp3": {
+        "title": "Sauce Vindaloo",
+        "youtube_title": "Opening 2 NEW Shining Fates Elite Trainer Boxes!",
+        "youtube_url": "https://www.youtube.com/watch?v=tNpNxOpjPMk&t=185s"
+    },
+    "dr_anomaly.mp3": {
+        "title": "Dr. Anomaly",
+        "youtube_title": "UNBOXING 500 OPERATION BROKEN FANG CASES (INSANE GLOVES)",
+        "youtube_url": "https://www.youtube.com/watch?v=PV8lre2SJqg&t=154s"
+    },
+    "deez_nuts.mp3": {
+        "title": "Deez Nuts",
+        "youtube_title": "ANOMALY AND PAPA TRIES DOG FOOD (PIG INTESTINES)",
+        "youtube_url": "https://www.youtube.com/watch?v=W97CkZwagwE&t=371s"
+    },
+    "anomalys_huge_package.mp3": {
+        "title": "Anomaly's Huge Package",
+        "youtube_title": "OPENING A $1500 POKEMON MYSTERY BOX",
+        "youtube_url": "https://www.youtube.com/watch?v=XKfKM4Uq7W0&t=3s"
+    },
+    "sound_check.mp3": {
+        "title": "Sound Check",
+        "youtube_title": "THE TRUST FACTOR EXPERIENCE 5",
+        "youtube_url": "https://www.youtube.com/watch?v=suIcm3T1b9E"
+    },
+    "cringe_apple_user.mp3": {
+        "title": "🚨 Cringe Apple User 🚨",
+        "youtube_title": "ANOMALY AND PAPA WOULD YOU RATHER..?",
+        "youtube_url": "https://www.youtube.com/watch?v=wUohb2oRu4U&t=133s"
+    },
+    "shit_hard.mp3": {
+        "title": "💩",
+        "youtube_title": "OPENING FAN MAIL 27 (CSGO PINS)",
+        "youtube_url": "https://www.youtube.com/watch?v=dfKZ24DW3e0&t=240s"
     }
 }
 
