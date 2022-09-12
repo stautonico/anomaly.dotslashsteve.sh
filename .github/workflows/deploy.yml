@@ -26,11 +26,12 @@ jobs:
 
       - name: Install NPM Dependencies and Build
         run: |
-          npm install
-          npm run build --if-present
+          npm ci
+          npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: prod
-          folder: .
+          folder: dist
+          target-folder: .
