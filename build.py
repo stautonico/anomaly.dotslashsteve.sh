@@ -206,6 +206,11 @@ AUDIO_FILES = {
         "title": "💩",
         "youtube_title": "OPENING FAN MAIL 27 (CSGO PINS)",
         "youtube_url": "https://www.youtube.com/watch?v=dfKZ24DW3e0&t=240s"
+    },
+    "iwantfuck.mp3": {
+        "title": "I Want Fuck",
+        "youtube_title": "DRAWING WORLD FLAGS FROM MEMORY (GONE WRONG)",
+        "youtube_url": "https://www.youtube.com/watch?v=3AnKvz9welM&t=546s"
     }
 }
 
