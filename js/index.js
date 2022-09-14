@@ -97,6 +97,7 @@ function stop_playing() {
     AUDIO.pause();
 }
 CONTAINER.appendChild(generate_button("OMFG", "OMFG.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=222s"));
+CONTAINER.appendChild(generate_button("HÅLL KÄFTEN", "SHUT_UP.mp3", "TWITCH HIGHLIGHTS 31 - GIGACHAD CSGO MOMENTS", "https://www.youtube.com/watch?v=-_UarirZstg&t=262s"));
 CONTAINER.appendChild(generate_button("Anomaly's Huge Package", "anomalys_huge_package.mp3", "OPENING A $1500 POKEMON MYSTERY BOX", "https://www.youtube.com/watch?v=XKfKM4Uq7W0&t=3s"));
 CONTAINER.appendChild(generate_button("Because he's hung over", "because_hes_hung_over.mp3", "Halloween with Anomaly", "https://www.youtube.com/watch?v=poB_G0tHRrs&t=10s"));
 CONTAINER.appendChild(generate_button("Papa's Breakfast", "breakfast.mp3", "CANADIAN BEER REVIEW (EH?)", "https://www.youtube.com/watch?v=2ksXESdzt6I&t=98s"));
