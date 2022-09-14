@@ -216,6 +216,11 @@ AUDIO_FILES = {
         "title": "HÅLL KÄFTEN",
         "youtube_title": "TWITCH HIGHLIGHTS 31 - GIGACHAD CSGO MOMENTS",
         "youtube_url": "https://www.youtube.com/watch?v=-_UarirZstg&t=262s"
+    },
+    "seven_dollars.mp3": {
+        "title": "7$",
+        "youtube_title": "SO WE FOUND THIS NEW SITE 1",
+        "youtube_url": "https://www.youtube.com/watch?v=bN6XP2yRphA&t=243s"
     }
 }
 
