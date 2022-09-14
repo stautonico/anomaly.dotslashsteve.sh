@@ -211,6 +211,11 @@ AUDIO_FILES = {
         "title": "I Want Fuck",
         "youtube_title": "DRAWING WORLD FLAGS FROM MEMORY (GONE WRONG)",
         "youtube_url": "https://www.youtube.com/watch?v=3AnKvz9welM&t=546s"
+    },
+    "SHUT_UP.mp3": {
+        "title": "HÅLL KÄFTEN",
+        "youtube_title": "TWITCH HIGHLIGHTS 31 - GIGACHAD CSGO MOMENTS",
+        "youtube_url": "https://www.youtube.com/watch?v=-_UarirZstg&t=262s"
     }
 }
 
