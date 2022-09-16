@@ -114,6 +114,7 @@ CONTAINER.appendChild(generate_button("Deez Nuts", "deez_nuts.mp3", "ANOMALY AND
 CONTAINER.appendChild(generate_button("Der Anal Zerstörer", "der_anal_zerstorer.mp3", "SO WE FOUND THIS NEW SITE 1", "https://www.youtube.com/watch?v=bN6XP2yRphA&t=199s", false));
 CONTAINER.appendChild(generate_button("Don't Burn Down The House", "dont_burn_down_the_house.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=199s", false));
 CONTAINER.appendChild(generate_button("Dr. Anomaly", "dr_anomaly.mp3", "UNBOXING 500 OPERATION BROKEN FANG CASES (INSANE GLOVES)", "https://www.youtube.com/watch?v=PV8lre2SJqg&t=154s", false));
+CONTAINER.appendChild(generate_button("F1's Favorite BTS Member", "f1s_favorite_bts_member.mp3", "TWITCH HIGHLIGHTS 27 - PLAYING WITH A MICROWAVE", "https://www.youtube.com/watch?v=O22t8hmd2Iw&t=98s", true));
 CONTAINER.appendChild(generate_button("Face Reveal Laughs", "face_reveal_laugh.mp3", "24-Hour 4000 Case Opening Stream (VOD no longer available)", "#", false));
 CONTAINER.appendChild(generate_button("ебанить фармер блять", "fucking_farmer.mp3", "LAN PARTY WITH ANOMALY AND FRIENDS (PART 1)", "https://www.youtube.com/watch?v=cpGwQTAZpBE&t=134s", false));
 CONTAINER.appendChild(generate_button("F1's Gloves", "gloves.mp3", "GLOVE CASE OPENING (NEW CSGO UPDATE)", "https://www.youtube.com/watch?v=GLyeyiTbQBE&t=121s", false));
