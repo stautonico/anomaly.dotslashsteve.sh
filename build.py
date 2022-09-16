@@ -241,11 +241,16 @@ AUDIO_FILES = {
         "title": "𝖂𝖍𝖔𝖒𝖘𝖙 𝕰𝖆𝖙 𝕬𝖘𝖘",
         "youtube_title": "Anomaly goes to Malta",
         "youtube_url": "https://www.youtube.com/watch?v=Yfyh9G7zkhY&t=190s"
+    },
+    "f1s_favorite_bts_member.mp3": {
+        "title": "F1's Favorite BTS Member",
+        "youtube_title": "TWITCH HIGHLIGHTS 27 - PLAYING WITH A MICROWAVE",
+        "youtube_url": "https://www.youtube.com/watch?v=O22t8hmd2Iw&t=98s"
     }
 }
 
 # The last N ones will be given the "NEW" tag
-NEW_COUNT = 4
+NEW_COUNT = 5
 
 new_elements = [key for key in list(reversed(list(AUDIO_FILES)))[0:NEW_COUNT]]
 
