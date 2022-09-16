@@ -143,6 +143,7 @@ CONTAINER.appendChild(generate_button("Sound Check", "sound_check.mp3", "THE TRU
 CONTAINER.appendChild(generate_button("That Disgusting Damn Pedophile", "that_disgusting_damn_pedophile.mp3", "Halloween with Papanomaly", "https://www.youtube.com/watch?v=yckbAFrHgdM&t=487s", false));
 CONTAINER.appendChild(generate_button("The M4A1-S Has a What?", "the_shell_casing_ejaculation_port_hole_thing.mp3", "GLOVE CASE OPENING (NEW CSGO UPDATE)", "https://www.youtube.com/watch?v=GLyeyiTbQBE&t=348s", false));
 CONTAINER.appendChild(generate_button("УКРАИНА", "ukraina.mp3", "HILARIOUS MATCHMAKING HIGHLIGHTS", "https://www.youtube.com/watch?v=Jt4x7s6ieGI&t=436s", false));
+CONTAINER.appendChild(generate_button("𝖂𝖍𝖔𝖒𝖘𝖙 𝕰𝖆𝖙 𝕬𝖘𝖘", "whomst_eat_ass.mp3", "Anomaly goes to Malta", "https://www.youtube.com/watch?v=Yfyh9G7zkhY&t=190s", true));
 CONTAINER.appendChild(generate_button("Why You Drink More Öl?", "why_you_drink_more_ol.mp3", "Halloween with Anomaly", "https://www.youtube.com/watch?v=poB_G0tHRrs&t=17s", false));
 CONTAINER.appendChild(generate_button("You Make A Many Fuck?", "you_make_a_many_fuck.mp3", "ANOMALY GOES TO AFRICA", "https://www.youtube.com/watch?v=FDWrgsmj2wg&t=577s", false));
 CONTAINER.appendChild(generate_button("youlikeityouslut", "youlikeityouslut.mp3", "VERY EXPENSIVE BEER TESTING FOR PAPA'S BIRTHDAY (GONE WRONG)", "https://www.youtube.com/watch?v=ZCmH0Vsmr-M&t=214s", false));
