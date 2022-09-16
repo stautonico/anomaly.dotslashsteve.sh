@@ -62,11 +62,14 @@ function play_sound(sound) {
 }
 
 
-function generate_button(title, audio_file, youtube_video_title, youtube_video_url) {
+function generate_button(title, audio_file, youtube_video_title, youtube_video_url, is_new) {
     let button_container = document.createElement('div');
     button_container.classList.add('button-container');
     let button = document.createElement('button');
     button.classList.add('button');
+
+    if (is_new) button.dataset.ribbon="New";
+
     button.textContent = title;
     button_container.onclick = (e) => {
         if (e.target.classList.contains('button'))

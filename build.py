@@ -221,12 +221,36 @@ AUDIO_FILES = {
         "title": "7$",
         "youtube_title": "SO WE FOUND THIS NEW SITE 1",
         "youtube_url": "https://www.youtube.com/watch?v=bN6XP2yRphA&t=243s"
+    },
+    "anomaly_eats_cake.mp3": {
+        "title": "Anomaly Eats 🍑",
+        "youtube_title": "ANOMALY AND PAPANOMALY Q&A",
+        "youtube_url": "https://www.youtube.com/watch?v=mK3aN03ABe4&t=481s"
+    },
+    "anomaly_drinks_alot.mp3": {
+        "title": "Anomaly Drinks Alot",
+        "youtube_title": "ANOMALY AND PAPANOMALY Q&A",
+        "youtube_url": "https://www.youtube.com/watch?v=mK3aN03ABe4&t=591s"
+    },
+    "anomaly_eats_shit.mp3": {
+        "title": "Anomaly Eats 💩",
+        "youtube_title": "MAKING THE BIGGEST BIRTHDAY CAKE EVER (90.000 CALORIES)",
+        "youtube_url": "https://www.youtube.com/watch?v=KisAeJsus4s&t=252s"
     }
 }
+
+# The last N ones will be given the "NEW" tag
+NEW_COUNT = 3
+
+new_elements = [key for key in list(reversed(list(AUDIO_FILES)))[0:NEW_COUNT]]
 
 # Re-organize the dict into alphabetical order by key
 AUDIO_FILES = {k: v for k, v in sorted(AUDIO_FILES.items(), key=lambda item: item[0])}
 
+
+# Add the new tag to each of the elements
+for ele in new_elements:
+    AUDIO_FILES[ele]["new"] = "true" # This needs to be a string because javascript treats it as lowercase
 
 def build():
     # Remove the existing build directory if it exists
@@ -252,7 +276,7 @@ def build():
     with open("dist/js/index.js", "a") as f:
         for audio_file, data in AUDIO_FILES.items():
             f.write(
-                f"""CONTAINER.appendChild(generate_button("{data['title']}", "{audio_file}", "{data['youtube_title']}", "{data['youtube_url']}"));\n""")
+                f"""CONTAINER.appendChild(generate_button("{data['title']}", "{audio_file}", "{data['youtube_title']}", "{data['youtube_url']}", {data.get('new', 'false')}));\n""")
 
 
 if __name__ == '__main__':
