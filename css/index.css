@@ -78,6 +78,22 @@ button:disabled {
   background-color: lightgray;
   cursor: not-allowed;
 }
+[data-ribbon] {
+  position: relative;
+  display: inline-block;
+}
+[data-ribbon]:after {
+  content: attr(data-ribbon);
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  padding: 2px 25px;
+  background: linear-gradient(to top right, #D52941 49%, transparent 50%) right / 20px 100% no-repeat, linear-gradient(to top left, #D52941 49%, transparent 50%) left / 20px 100% no-repeat, linear-gradient(#D52941, #D52941) center / calc(100% - 40px) 100% no-repeat;
+  color: white;
+  border: 1px solid white;
+  transform: rotate(45deg) translate(26%, -60%);
+}
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
