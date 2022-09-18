@@ -251,11 +251,16 @@ AUDIO_FILES = {
         "title": "Iceland Smells Like Fart",
         "youtube_title": "Anomaly goes to Iceland (PART 1)",
         "youtube_url": "https://www.youtube.com/watch?v=vOsp2ctKgw8&t=48s"
+    },
+    "real_life_autotune.mp3": {
+        "title": "Real Life Auto-Tune",
+        "youtube_title": "ALEX MOVING TO MALTA",
+        "youtube_url": "https://youtu.be/nU29VZzjGB4?t=186"
     }
 }
 
 # The last N ones will be given the "NEW" tag
-NEW_COUNT = 2
+NEW_COUNT = 3
 
 new_elements = [key for key in list(reversed(list(AUDIO_FILES)))[0:NEW_COUNT]]
 
