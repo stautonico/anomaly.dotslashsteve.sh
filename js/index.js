@@ -134,6 +134,7 @@ CONTAINER.appendChild(generate_button("Oh, Anomaly", "oh_anomaly.mp3", "ANOMALY 
 CONTAINER.appendChild(generate_button("Papa Drowning in West Indies Porter", "papa_drowning_in_west_indies_porter.mp3", "PAPA TRIES THE MOST DISGUSTING BEERS", "https://www.youtube.com/watch?v=--jSourmyQ0&t=582s", false));
 CONTAINER.appendChild(generate_button("Papa Is Depressed", "papa_is_depressed.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=31s", false));
 CONTAINER.appendChild(generate_button("Pull A PhantomL0rd", "pull_a_phantomlord.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=249s", false));
+CONTAINER.appendChild(generate_button("Real Life Auto-Tune", "real_life_autotune.mp3", "ALEX MOVING TO MALTA", "https://youtu.be/nU29VZzjGB4?t=186", true));
 CONTAINER.appendChild(generate_button("RIP Rapacen's Mother", "rip_rapacens_mother.mp3", "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)", "https://www.youtube.com/watch?v=E7kacgom97s&t=377s", false));
 CONTAINER.appendChild(generate_button("Ёбаньlй в рот", "russian_swears.mp3", "ANOMALY EXPOSED", "https://www.youtube.com/watch?v=gHumZkhUqT4&t=334s", false));
 CONTAINER.appendChild(generate_button("Sauce Vindaloo", "sauce_vindaloo.mp3", "Opening 2 NEW Shining Fates Elite Trainer Boxes!", "https://www.youtube.com/watch?v=tNpNxOpjPMk&t=185s", false));
