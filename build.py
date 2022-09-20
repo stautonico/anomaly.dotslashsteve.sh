@@ -256,6 +256,21 @@ AUDIO_FILES = {
         "title": "Real Life Auto-Tune",
         "youtube_title": "ALEX MOVING TO MALTA",
         "youtube_url": "https://youtu.be/nU29VZzjGB4?t=186"
+    },
+    "garmoshka_blyat.mp3": {
+        "title": "гармошка блять",
+        "youtube_title": "RUSSIAN MATCHMAKING EXPERIENCE (RUSSIA SERVERS)",
+        "youtube_url": "https://www.youtube.com/watch?v=vOS-X3COxzY&t=297s"
+    },
+    "can_i_put_fuck_on_you.mp3": {
+        "title": "Can I Put Fuck On You?",
+        "youtube_title": "RUSSIAN MATCHMAKING EXPERIENCE (RUSSIA SERVERS)",
+        "youtube_url": "https://www.youtube.com/watch?v=vOS-X3COxzY&t=333s"
+    },
+    "min_telefon.mp3": {
+        "title": "MIN TELEFON",
+        "youtube_title": "PAPANOMALY OPENING FAN MAIL 9",
+        "youtube_url": "https://www.youtube.com/watch?v=nZ1W6NBp9iU&t=211s"
     }
 }
 

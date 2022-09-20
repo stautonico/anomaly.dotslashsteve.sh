@@ -52,6 +52,7 @@ body {
 body {
   min-height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 h1, h1 span {
@@ -100,7 +101,7 @@ button {
 }
 
 // "New" ribbon for the button
- [data-ribbon] {
+[data-ribbon] {
   position: relative;
   display: inline-block;
 }
@@ -112,10 +113,9 @@ button {
   top: 0;
   display: inline-block;
   padding: 2px 25px;
-  background:
-    linear-gradient(to top right, @ribbon 49%, transparent 50%) right/20px 100% no-repeat,
-    linear-gradient(to top left, @ribbon 49%, transparent 50%) left/20px 100% no-repeat,
-    linear-gradient(@ribbon, @ribbon) center/calc(100% - 40px) 100% no-repeat;
+  background: linear-gradient(to top right, @ribbon 49%, transparent 50%) right/20px 100% no-repeat,
+  linear-gradient(to top left, @ribbon 49%, transparent 50%) left/20px 100% no-repeat,
+  linear-gradient(@ribbon, @ribbon) center/calc(100% - 40px) 100% no-repeat;
   color: white;
   border: 1px solid white;
   transform: rotate(45deg) translate(26%, -60%);
@@ -127,13 +127,16 @@ button {
   gap: 0.5em;
 }
 
-
 .button-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 9.5em;
+}
+
+.download-url {
+  text-decoration: none;
 }
 
 .download .tooltip {
@@ -149,6 +152,7 @@ button {
 .tooltip {
   position: relative;
   transform: translateY(-10px);
+  z-index: 10; // Make sure the tooltip is always on top of the button
 
   a {
     color: @tertiary;
@@ -170,7 +174,7 @@ button {
   margin: 0.25em 0.125em;
 }
 
-.download-icon {
+.download-icon, .autoplay-link-icon {
   transition: transform 250ms ease-in-out;
 
   &:hover, a:hover, &.download-icon a:active {
@@ -246,6 +250,28 @@ button {
   40%, 60% {
     transform: translate3d(4px, 0, 0);
   }
+}
+
+#toast {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: @tertiary;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 99999;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#toast.show {
+  visibility: visible;
+  animation: fade-in 500ms, fade-out 500ms 3000ms;
+  -webkit-animation: fade-in 500ms, fade-out 500ms 3000ms;
 }
 
 
@@ -347,11 +373,199 @@ input[type=range] {
   }
 }
 
+/* Firefox */
+* {
+  scrollbar-width: thick;
+  scrollbar-color: #D52941 #333333;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #333333;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #4C4C4C;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #101010;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #D52941;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #FD314D;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #AD2135;
+}
+
+
 .no-select {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#autoplay-blocker {
+  // This is an invisible div that covers the entire screen
+  // This prevents the user from clicking on anything else if the "play" query parameter is set
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.0);
+  z-index: 1000;
+  display: none; // This is hidden by default, but will be set by the autoplay handler
+}
+
+#anomaly-meme {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffd54f;
+  z-index: 1000;
+  display: none; // This is hidden by default, but will be set by the query parameter handler
+  margin: 0;
+
+  img {
+    @spin-time: 1500ms;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-animation: spin @spin-time linear infinite;
+    -o-animation: spin @spin-time linear infinite;
+    animation: spin @spin-time linear infinite;
+
+    @border-width: 2px;
+    -webkit-filter: drop-shadow(@border-width @border-width 0 @tertiary) drop-shadow(-@border-width @border-width 0 @tertiary) drop-shadow(@border-width -@border-width 0 @tertiary) drop-shadow(-@border-width -@border-width 0 @tertiary);
+    filter: drop-shadow(@border-width @border-width 0 @tertiary) drop-shadow(-@border-width @border-width 0 @tertiary) drop-shadow(@border-width -@border-width 0 @tertiary) drop-shadow(-@border-width -@border-width 0 @tertiary);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// Animations for the "toast"/notification
+@-webkit-keyframes fade-in {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-out {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+
+footer {
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: darken(@background, 10%);
+
+  .icon {
+    width: 1em;
+    display: inline;
+    vertical-align: text-bottom;
+  }
+
+  img {
+    transition: color 500ms, filter 500ms;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    transition: color 500ms, filter 500ms;
+
+    &:hover {
+      color: @tertiary;
+
+      img {
+        // This is a mega-hack
+        filter: invert(28%) sepia(93%) saturate(4449%) hue-rotate(339deg) brightness(87%) contrast(90%);
+      }
+    }
+  }
+
+  #hidden-text {
+    position: absolute;
+    vertical-align: bottom;
+
+    float: left;
+    transform: translateY(110%);
+    left: 0;
+    color: darken(@background, 17%);
+  }
 }

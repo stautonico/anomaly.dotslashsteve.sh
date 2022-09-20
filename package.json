@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "python3 build.py && npm run less",
     "less": "lessc css/index.less dist/css/index.css",
-    "dev": "nodemon --watch css --watch js --watch index.html --watch build.py --exec \"npm run start\"",
+    "dev": "nodemon --watch css/index.less --watch js --watch index.html --watch build.py --exec \"npm run start\"",
     "start": "yarn build && cd dist && python3 -m http.server 9000"
   },
   "repository": {
