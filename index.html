@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +27,8 @@
     <meta name="theme-color" content="#ffffff">
 
     <meta name="title" content="Anomaly Soundboard">
-    <meta name="description" content="My favorite audio clips from the fat Swedish man. Downloads and links to the original videos (with timestamps) are provided :^)">
+    <meta name="description"
+          content="My favorite audio clips from the fat Swedish man. Downloads and links to the original videos (with timestamps) are provided :^)">
     <meta name="keywords" content="soundboard, anomaly, fat, csgo, sound, meme">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -36,18 +38,19 @@
     <meta property="og:title" content="Anomaly Soundboard">
     <meta property="og:site_name" content="Anomaly Soundboard">
     <meta property="og:url" content="https://anomaly.dotslashsteve.sh">
-    <meta property="og:description" content="My favorite audio clips from the fat Swedish man. Downloads and links to the original videos (with timestamps) are provided :^)">
+    <meta property="og:description"
+          content="My favorite audio clips from the fat Swedish man. Downloads and links to the original videos (with timestamps) are provided :^)">
     <meta property="og:type" content=website>
     <!-- TODO: Randomize the og:image meta tag -->
-<!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/anomalyfat.jpg">-->
-<!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/eatingrawonion.jpg">-->
-<!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/ishatmyself.jpg">-->
-<!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/papabeard.jpg">-->
-<!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/papacrack.jpg">-->
-<!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/sadpapa.jpg">-->
-<!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/screaminguntilipassout.jpg">-->
-<!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/thanos.jpg">-->
-<!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/trollingthefbi.jpg">-->
+    <!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/anomalyfat.jpg">-->
+    <!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/eatingrawonion.jpg">-->
+    <!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/ishatmyself.jpg">-->
+    <!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/papabeard.jpg">-->
+    <!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/papacrack.jpg">-->
+    <!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/sadpapa.jpg">-->
+    <!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/screaminguntilipassout.jpg">-->
+    <!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/thanos.jpg">-->
+    <!--    <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/trollingthefbi.jpg">-->
     <meta property="og:image" content="https://anomaly.dotslashsteve.sh/img/og/happyanomaly.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
@@ -60,28 +63,49 @@
     <meta name="rating" content="14 Years">
 
 
-
 </head>
 <body>
 
 
 <div id="page" class="no-select">
-    <h1><span id="anomaly">Anomaly</span> Soundboard <img id="anomaly-pog" src="/img/anomaly_pog.png"
-                                                          alt=":anomalypog:">
-        <input type="range" min="0" max="100" id="volume">&nbsp;<span id="volume-value">50%</span></h1>
 
-    <div class="wrapper" id="container">
+    <div id="anomaly-meme">
+        <img src="/img/anomaly_pog.png" alt="Anomaly Meme">
+        <audio src="/audio/jaunty_gumption.mp3"></audio>
     </div>
 
-    <br><br><br>
+    <div id="not-meme">
+        <div id="autoplay-blocker"></div>
+        <h1><span id="anomaly">Anomaly</span> Soundboard <img id="anomaly-pog" src="/img/anomaly_pog.png"
+                                                              alt=":anomalypog:">
+            <input type="range" min="0" max="100" id="volume">&nbsp;<span id="volume-value">50%</span></h1>
+
+        <div class="wrapper" id="container">
+        </div>
+
+        <br><br><br>
 
 
-    <button id="stop-button" onclick="stop_playing()">STOP</button>
+        <button id="stop-button" onclick="stop_playing()">STOP</button>
+    </div>
 
+    <h2 id="toast">Hello!</h2>
 </div>
 
 <audio src="#" id="audio"></audio>
 
+
+<footer class="footer">
+    <a href="https://github.com/stautonico/anomaly.dotslashsteve.sh" target="_blank"><img class="icon" src="/img/svg/github-icon.svg"
+                                                                                          alt="GitHub Icon"> Edit On
+        GitHub</a>
+    <a href="https://www.youtube.com/c/Anomaly" target="_blank"><img class="icon" src="/img/skimask.jpg"
+                                                                     alt="Balaclava Icon"> Anomaly's Channel</a>
+    <a href="https://www.youtube.com/channel/UCqck1kDsBbrlKWHGRsk7dbQ" target="_blank"><img class="icon" src="/img/svg/oldman.svg"
+                                                                                            alt="Old Man Icon"> Anomaly and Papanomaly</a>
+
+    <span id="hidden-text">Don't Steal My Code</span>
+</footer>
 
 </body>
 <script src="js/index.js"></script>
