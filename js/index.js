@@ -187,11 +187,12 @@ CONTAINER.appendChild(generate_button("HÅLL KÄFTEN", "SHUT_UP.mp3", "TWITCH HI
 CONTAINER.appendChild(generate_button("Anomaly Drinks Alot", "anomaly_drinks_alot.mp3", "ANOMALY AND PAPANOMALY Q&A", "https://www.youtube.com/watch?v=mK3aN03ABe4&t=591s", false));
 CONTAINER.appendChild(generate_button("Anomaly Eats 🍑", "anomaly_eats_cake.mp3", "ANOMALY AND PAPANOMALY Q&A", "https://www.youtube.com/watch?v=mK3aN03ABe4&t=481s", false));
 CONTAINER.appendChild(generate_button("Anomaly Eats 💩", "anomaly_eats_shit.mp3", "MAKING THE BIGGEST BIRTHDAY CAKE EVER (90.000 CALORIES)", "https://www.youtube.com/watch?v=KisAeJsus4s&t=252s", false));
+CONTAINER.appendChild(generate_button("OMG Anomaly GFYS", "anomaly_gfys.mp3", "THE TRUST FACTOR EXPERIENCE 5", "https://www.youtube.com/watch?v=suIcm3T1b9E&t=699s", true));
 CONTAINER.appendChild(generate_button("Anomaly's Huge Package", "anomalys_huge_package.mp3", "OPENING A $1500 POKEMON MYSTERY BOX", "https://www.youtube.com/watch?v=XKfKM4Uq7W0&t=3s", false));
 CONTAINER.appendChild(generate_button("Because he's hung over", "because_hes_hung_over.mp3", "Halloween with Anomaly", "https://www.youtube.com/watch?v=poB_G0tHRrs&t=10s", false));
 CONTAINER.appendChild(generate_button("Papa's Breakfast", "breakfast.mp3", "CANADIAN BEER REVIEW (EH?)", "https://www.youtube.com/watch?v=2ksXESdzt6I&t=98s", false));
 CONTAINER.appendChild(generate_button("CallMeCarson", "callmecarson.mp3", "SO WE FOUND THIS NEW SITE 1", "https://www.youtube.com/watch?v=bN6XP2yRphA&t=454s", false));
-CONTAINER.appendChild(generate_button("Can I Put Fuck On You?", "can_i_put_fuck_on_you.mp3", "RUSSIAN MATCHMAKING EXPERIENCE (RUSSIA SERVERS)", "https://www.youtube.com/watch?v=vOS-X3COxzY&t=333s", true));
+CONTAINER.appendChild(generate_button("Can I Put Fuck On You?", "can_i_put_fuck_on_you.mp3", "RUSSIAN MATCHMAKING EXPERIENCE (RUSSIA SERVERS)", "https://www.youtube.com/watch?v=vOS-X3COxzY&t=333s", false));
 CONTAINER.appendChild(generate_button("Carlson Drowns", "carlson_drowns.mp3", "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)", "https://www.youtube.com/watch?v=E7kacgom97s&t=417s", false));
 CONTAINER.appendChild(generate_button("🚨 Cringe Apple User 🚨", "cringe_apple_user.mp3", "ANOMALY AND PAPA WOULD YOU RATHER..?", "https://www.youtube.com/watch?v=wUohb2oRu4U&t=133s", false));
 CONTAINER.appendChild(generate_button("Deez Nuts", "deez_nuts.mp3", "ANOMALY AND PAPA TRIES DOG FOOD (PIG INTESTINES)", "https://www.youtube.com/watch?v=W97CkZwagwE&t=371s", false));
@@ -201,7 +202,7 @@ CONTAINER.appendChild(generate_button("Dr. Anomaly", "dr_anomaly.mp3", "UNBOXING
 CONTAINER.appendChild(generate_button("F1's Favorite BTS Member", "f1s_favorite_bts_member.mp3", "TWITCH HIGHLIGHTS 27 - PLAYING WITH A MICROWAVE", "https://www.youtube.com/watch?v=O22t8hmd2Iw&t=98s", false));
 CONTAINER.appendChild(generate_button("Face Reveal Laughs", "face_reveal_laugh.mp3", "24-Hour 4000 Case Opening Stream (VOD no longer available)", "#", false));
 CONTAINER.appendChild(generate_button("ебанить фармер блять", "fucking_farmer.mp3", "LAN PARTY WITH ANOMALY AND FRIENDS (PART 1)", "https://www.youtube.com/watch?v=cpGwQTAZpBE&t=134s", false));
-CONTAINER.appendChild(generate_button("гармошка блять", "garmoshka_blyat.mp3", "RUSSIAN MATCHMAKING EXPERIENCE (RUSSIA SERVERS)", "https://www.youtube.com/watch?v=vOS-X3COxzY&t=297s", true));
+CONTAINER.appendChild(generate_button("гармошка блять", "garmoshka_blyat.mp3", "RUSSIAN MATCHMAKING EXPERIENCE (RUSSIA SERVERS)", "https://www.youtube.com/watch?v=vOS-X3COxzY&t=297s", false));
 CONTAINER.appendChild(generate_button("F1's Gloves", "gloves.mp3", "GLOVE CASE OPENING (NEW CSGO UPDATE)", "https://www.youtube.com/watch?v=GLyeyiTbQBE&t=121s", false));
 CONTAINER.appendChild(generate_button("Gotta Catch 'em All!", "gotta_catch_em_all.mp3", "Pokemon GO with Anomaly (Highlights)", "https://www.youtube.com/watch?v=TKU-daPcu18&t=81s", false));
 CONTAINER.appendChild(generate_button("Hitman (kill my son)", "hitman_kill_my_son.mp3", "WE ALMOST GOT SHOT BY THE MALTA MILITARY (ALMOST DIED XD)", "https://www.youtube.com/watch?v=_jqkuWTRhRg&t=354s", false));
@@ -214,9 +215,10 @@ CONTAINER.appendChild(generate_button("I Want Fuck", "iwantfuck.mp3", "DRAWING W
 CONTAINER.appendChild(generate_button("Let Me Hit A Bullet", "let_me_hit_a_bullet.mp3", "TWITCH HIGHLIGHTS 30 - OBAMA MOMENT", "https://www.youtube.com/watch?v=JmonvSPRhnY&t=536s", false));
 CONTAINER.appendChild(generate_button("Matchmaking In The Zoo", "matchmaking_in_the_zoo.mp3", "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)", "https://www.youtube.com/watch?v=E7kacgom97s&t=441s", false));
 CONTAINER.appendChild(generate_button("🍉", "melons.mp3", "FREE TO PLAY \"COUNTER-STRIKE\" GAMES 2", "https://www.youtube.com/watch?v=LiDmJ3UuItM&t=589s", false));
-CONTAINER.appendChild(generate_button("MIN TELEFON", "min_telefon.mp3", "PAPANOMALY OPENING FAN MAIL 9", "https://www.youtube.com/watch?v=nZ1W6NBp9iU&t=211s", true));
+CONTAINER.appendChild(generate_button("MIN TELEFON", "min_telefon.mp3", "PAPANOMALY OPENING FAN MAIL 9", "https://www.youtube.com/watch?v=nZ1W6NBp9iU&t=211s", false));
 CONTAINER.appendChild(generate_button("Obama Moment", "obama_moment.mp3", "TWITCH HIGHLIGHTS 30 - OBAMA MOMENT", "https://www.youtube.com/watch?v=JmonvSPRhnY&t=403s", false));
 CONTAINER.appendChild(generate_button("Oh, Anomaly", "oh_anomaly.mp3", "ANOMALY GOES TO AFRICA", "https://www.youtube.com/watch?v=FDWrgsmj2wg&t=430s", false));
+CONTAINER.appendChild(generate_button("Oolong Tea", "oolong_tea.mp3", "ANOMALY TRIES CHINESE FOOD AND SNACKS (PART 1)", "https://www.youtube.com/watch?v=nYifBSnd9SU&t=615s", true));
 CONTAINER.appendChild(generate_button("Papa Drowning in West Indies Porter", "papa_drowning_in_west_indies_porter.mp3", "PAPA TRIES THE MOST DISGUSTING BEERS", "https://www.youtube.com/watch?v=--jSourmyQ0&t=582s", false));
 CONTAINER.appendChild(generate_button("Papa Is Depressed", "papa_is_depressed.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=31s", false));
 CONTAINER.appendChild(generate_button("Pull A PhantomL0rd", "pull_a_phantomlord.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=249s", false));
