@@ -271,11 +271,21 @@ AUDIO_FILES = {
         "title": "MIN TELEFON",
         "youtube_title": "PAPANOMALY OPENING FAN MAIL 9",
         "youtube_url": "https://www.youtube.com/watch?v=nZ1W6NBp9iU&t=211s"
+    },
+    "anomaly_gfys.mp3": {
+        "title": "OMG Anomaly GFYS",
+        "youtube_title": "THE TRUST FACTOR EXPERIENCE 5",
+        "youtube_url": "https://www.youtube.com/watch?v=suIcm3T1b9E&t=699s"
+    },
+    "oolong_tea.mp3": {
+        "title": "Oolong Tea",
+        "youtube_title": "ANOMALY TRIES CHINESE FOOD AND SNACKS (PART 1)",
+        "youtube_url": "https://www.youtube.com/watch?v=nYifBSnd9SU&t=615s"
     }
 }
 
 # The last N ones will be given the "NEW" tag
-NEW_COUNT = 3
+NEW_COUNT = 2
 
 new_elements = [key for key in list(reversed(list(AUDIO_FILES)))[0:NEW_COUNT]]
 
