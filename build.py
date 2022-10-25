@@ -281,11 +281,16 @@ AUDIO_FILES = {
         "title": "Oolong Tea",
         "youtube_title": "ANOMALY TRIES CHINESE FOOD AND SNACKS (PART 1)",
         "youtube_url": "https://www.youtube.com/watch?v=nYifBSnd9SU&t=615s"
+    },
+    "in_my_ass.mp3": {
+        "title": "💦 In My Ass",
+        "youtube_title": "TRY NOT TO LAUGH CHALLENGE 4",
+        "youtube_url": "https://www.youtube.com/watch?v=mtdhXhvuRoA&t=506s"
     }
 }
 
 # The last N ones will be given the "NEW" tag
-NEW_COUNT = 2
+NEW_COUNT = 1
 
 new_elements = [key for key in list(reversed(list(AUDIO_FILES)))[0:NEW_COUNT]]
 
