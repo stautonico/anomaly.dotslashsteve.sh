@@ -286,6 +286,11 @@ AUDIO_FILES = {
         "title": "💦 In My Ass",
         "youtube_title": "TRY NOT TO LAUGH CHALLENGE 4",
         "youtube_url": "https://www.youtube.com/watch?v=mtdhXhvuRoA&t=506s"
+    },
+    "pepparkakshus.mp3": {
+        "title": "PEPPARKAKSHUS",
+        "youtube_title": "ANOMALY BUILDS A GINGERBREAD HOUSE!",
+        "youtube_url": "https://www.youtube.com/watch?v=FHzSwe0lceY&t=35s"
     }
 }
 
