@@ -234,6 +234,7 @@ CONTAINER.appendChild(generate_button("💩", "shit_hard.mp3", "OPENING FAN MAIL
 CONTAINER.appendChild(generate_button("\"Sleeping Bag\"", "sleeping_bag.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=92s", false));
 CONTAINER.appendChild(generate_button("LV Belt Smells Good", "smell_good.mp3", "ANOMALY'S COLLECTION OF FAKE CLOUT", "https://www.youtube.com/watch?v=KK0kbCArtFY&t=421s", false));
 CONTAINER.appendChild(generate_button("Sound Check", "sound_check.mp3", "THE TRUST FACTOR EXPERIENCE 5", "https://www.youtube.com/watch?v=suIcm3T1b9E", false));
+CONTAINER.appendChild(generate_button("Thank You For Give Me The Knife", "thank_you_for_give_me_the_knife.mp3", "GIVING PAPANOMALY HIS DREAM GIFT (CHRISTMAS PART 1)", "https://www.youtube.com/watch?v=QEqJo8MYQqk&t=54s", true));
 CONTAINER.appendChild(generate_button("That Disgusting Damn Pedophile", "that_disgusting_damn_pedophile.mp3", "Halloween with Papanomaly", "https://www.youtube.com/watch?v=yckbAFrHgdM&t=487s", false));
 CONTAINER.appendChild(generate_button("The M4A1-S Has a What?", "the_shell_casing_ejaculation_port_hole_thing.mp3", "GLOVE CASE OPENING (NEW CSGO UPDATE)", "https://www.youtube.com/watch?v=GLyeyiTbQBE&t=348s", false));
 CONTAINER.appendChild(generate_button("УКРАИНА", "ukraina.mp3", "HILARIOUS MATCHMAKING HIGHLIGHTS", "https://www.youtube.com/watch?v=Jt4x7s6ieGI&t=436s", false));
