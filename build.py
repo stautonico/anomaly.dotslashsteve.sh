@@ -291,11 +291,16 @@ AUDIO_FILES = {
         "title": "PEPPARKAKSHUS",
         "youtube_title": "ANOMALY BUILDS A GINGERBREAD HOUSE!",
         "youtube_url": "https://www.youtube.com/watch?v=FHzSwe0lceY&t=35s"
-    }
+    },
+    "fat_stupid_virgin.mp3": {
+        "title": "Fat Stupid Virgin",
+        "youtube_title": "ANOMALY BUILDS A GINGERBREAD HOUSE!",
+        "youtube_url": "https://www.youtube.com/watch?v=FHzSwe0lceY&t=238s"
+    },
 }
 
 # The last N ones will be given the "NEW" tag
-NEW_COUNT = 1
+NEW_COUNT = 2
 
 new_elements = [key for key in list(reversed(list(AUDIO_FILES)))[0:NEW_COUNT]]
 
