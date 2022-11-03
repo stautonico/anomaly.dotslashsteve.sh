@@ -201,6 +201,7 @@ CONTAINER.appendChild(generate_button("Don't Burn Down The House", "dont_burn_do
 CONTAINER.appendChild(generate_button("Dr. Anomaly", "dr_anomaly.mp3", "UNBOXING 500 OPERATION BROKEN FANG CASES (INSANE GLOVES)", "https://www.youtube.com/watch?v=PV8lre2SJqg&t=154s", false));
 CONTAINER.appendChild(generate_button("F1's Favorite BTS Member", "f1s_favorite_bts_member.mp3", "TWITCH HIGHLIGHTS 27 - PLAYING WITH A MICROWAVE", "https://www.youtube.com/watch?v=O22t8hmd2Iw&t=98s", false));
 CONTAINER.appendChild(generate_button("Face Reveal Laughs", "face_reveal_laugh.mp3", "24-Hour 4000 Case Opening Stream (VOD no longer available)", "#", false));
+CONTAINER.appendChild(generate_button("Fat Stupid Virgin", "fat_stupid_virgin.mp3", "ANOMALY BUILDS A GINGERBREAD HOUSE!", "https://www.youtube.com/watch?v=FHzSwe0lceY&t=238s", true));
 CONTAINER.appendChild(generate_button("ебанить фармер блять", "fucking_farmer.mp3", "LAN PARTY WITH ANOMALY AND FRIENDS (PART 1)", "https://www.youtube.com/watch?v=cpGwQTAZpBE&t=134s", false));
 CONTAINER.appendChild(generate_button("гармошка блять", "garmoshka_blyat.mp3", "RUSSIAN MATCHMAKING EXPERIENCE (RUSSIA SERVERS)", "https://www.youtube.com/watch?v=vOS-X3COxzY&t=297s", false));
 CONTAINER.appendChild(generate_button("F1's Gloves", "gloves.mp3", "GLOVE CASE OPENING (NEW CSGO UPDATE)", "https://www.youtube.com/watch?v=GLyeyiTbQBE&t=121s", false));
@@ -211,7 +212,7 @@ CONTAINER.appendChild(generate_button("I Am Retarded Addict Please Help", "i_am_
 CONTAINER.appendChild(generate_button("I Hate You, Don't Moan Again", "i_hate_you_dont_moan_again.mp3", "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)", "https://www.youtube.com/watch?v=E7kacgom97s&t=387s", false));
 CONTAINER.appendChild(generate_button("Iceland Smells Like Fart", "iceland_smells_like_fart.mp3", "Anomaly goes to Iceland (PART 1)", "https://www.youtube.com/watch?v=vOsp2ctKgw8&t=48s", false));
 CONTAINER.appendChild(generate_button("If Doctor", "if_doctor.mp3", "Halloween with Anomaly", "https://www.youtube.com/watch?v=poB_G0tHRrs&t=39s", false));
-CONTAINER.appendChild(generate_button("💦 In My Ass", "in_my_ass.mp3", "TRY NOT TO LAUGH CHALLENGE 4", "https://www.youtube.com/watch?v=mtdhXhvuRoA&t=506s", true));
+CONTAINER.appendChild(generate_button("💦 In My Ass", "in_my_ass.mp3", "TRY NOT TO LAUGH CHALLENGE 4", "https://www.youtube.com/watch?v=mtdhXhvuRoA&t=506s", false));
 CONTAINER.appendChild(generate_button("I Want Fuck", "iwantfuck.mp3", "DRAWING WORLD FLAGS FROM MEMORY (GONE WRONG)", "https://www.youtube.com/watch?v=3AnKvz9welM&t=546s", false));
 CONTAINER.appendChild(generate_button("Let Me Hit A Bullet", "let_me_hit_a_bullet.mp3", "TWITCH HIGHLIGHTS 30 - OBAMA MOMENT", "https://www.youtube.com/watch?v=JmonvSPRhnY&t=536s", false));
 CONTAINER.appendChild(generate_button("Matchmaking In The Zoo", "matchmaking_in_the_zoo.mp3", "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)", "https://www.youtube.com/watch?v=E7kacgom97s&t=441s", false));
@@ -222,6 +223,7 @@ CONTAINER.appendChild(generate_button("Oh, Anomaly", "oh_anomaly.mp3", "ANOMALY 
 CONTAINER.appendChild(generate_button("Oolong Tea", "oolong_tea.mp3", "ANOMALY TRIES CHINESE FOOD AND SNACKS (PART 1)", "https://www.youtube.com/watch?v=nYifBSnd9SU&t=615s", false));
 CONTAINER.appendChild(generate_button("Papa Drowning in West Indies Porter", "papa_drowning_in_west_indies_porter.mp3", "PAPA TRIES THE MOST DISGUSTING BEERS", "https://www.youtube.com/watch?v=--jSourmyQ0&t=582s", false));
 CONTAINER.appendChild(generate_button("Papa Is Depressed", "papa_is_depressed.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=31s", false));
+CONTAINER.appendChild(generate_button("PEPPARKAKSHUS", "pepparkakshus.mp3", "ANOMALY BUILDS A GINGERBREAD HOUSE!", "https://www.youtube.com/watch?v=FHzSwe0lceY&t=35s", true));
 CONTAINER.appendChild(generate_button("Pull A PhantomL0rd", "pull_a_phantomlord.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=249s", false));
 CONTAINER.appendChild(generate_button("Real Life Auto-Tune", "real_life_autotune.mp3", "ALEX MOVING TO MALTA", "https://youtu.be/nU29VZzjGB4?t=186", false));
 CONTAINER.appendChild(generate_button("RIP Rapacen's Mother", "rip_rapacens_mother.mp3", "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)", "https://www.youtube.com/watch?v=E7kacgom97s&t=377s", false));
