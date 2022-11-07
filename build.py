@@ -301,11 +301,21 @@ AUDIO_FILES = {
         "title": "Thank You For Give Me The Knife",
         "youtube_title": "GIVING PAPANOMALY HIS DREAM GIFT (CHRISTMAS PART 1)",
         "youtube_url": "https://www.youtube.com/watch?v=QEqJo8MYQqk&t=54s"
+    },
+    "spray_in_the_cock.mp3": {
+        "title": "Spray in the 🐔",
+        "youtube_title": "Anomaly goes to Japan (PART 1)",
+        "youtube_url": "https://www.youtube.com/watch?v=GKqWButuYk0&t=233s"
+    },
+    "german_feet.mp3": {
+        "title": "Fußgewas Ja",
+        "youtube_title": "OUR WORST VIDEO EVER (BEER REVIEW 3)",
+        "youtube_url": "https://www.youtube.com/watch?v=N9_fgO4H0Hs&t=48s"
     }
 }
 
 # The last N ones will be given the "NEW" tag
-NEW_COUNT = 3
+NEW_COUNT = 2
 
 new_elements = [key for key in list(reversed(list(AUDIO_FILES)))[0:NEW_COUNT]]
 
