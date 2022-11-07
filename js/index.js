@@ -201,9 +201,10 @@ CONTAINER.appendChild(generate_button("Don't Burn Down The House", "dont_burn_do
 CONTAINER.appendChild(generate_button("Dr. Anomaly", "dr_anomaly.mp3", "UNBOXING 500 OPERATION BROKEN FANG CASES (INSANE GLOVES)", "https://www.youtube.com/watch?v=PV8lre2SJqg&t=154s", false));
 CONTAINER.appendChild(generate_button("F1's Favorite BTS Member", "f1s_favorite_bts_member.mp3", "TWITCH HIGHLIGHTS 27 - PLAYING WITH A MICROWAVE", "https://www.youtube.com/watch?v=O22t8hmd2Iw&t=98s", false));
 CONTAINER.appendChild(generate_button("Face Reveal Laughs", "face_reveal_laugh.mp3", "24-Hour 4000 Case Opening Stream (VOD no longer available)", "#", false));
-CONTAINER.appendChild(generate_button("Fat Stupid Virgin", "fat_stupid_virgin.mp3", "ANOMALY BUILDS A GINGERBREAD HOUSE!", "https://www.youtube.com/watch?v=FHzSwe0lceY&t=238s", true));
+CONTAINER.appendChild(generate_button("Fat Stupid Virgin", "fat_stupid_virgin.mp3", "ANOMALY BUILDS A GINGERBREAD HOUSE!", "https://www.youtube.com/watch?v=FHzSwe0lceY&t=238s", false));
 CONTAINER.appendChild(generate_button("ебанить фармер блять", "fucking_farmer.mp3", "LAN PARTY WITH ANOMALY AND FRIENDS (PART 1)", "https://www.youtube.com/watch?v=cpGwQTAZpBE&t=134s", false));
 CONTAINER.appendChild(generate_button("гармошка блять", "garmoshka_blyat.mp3", "RUSSIAN MATCHMAKING EXPERIENCE (RUSSIA SERVERS)", "https://www.youtube.com/watch?v=vOS-X3COxzY&t=297s", false));
+CONTAINER.appendChild(generate_button("Fußgewas Ja", "german_feet.mp3", "OUR WORST VIDEO EVER (BEER REVIEW 3)", "https://www.youtube.com/watch?v=N9_fgO4H0Hs&t=48s", true));
 CONTAINER.appendChild(generate_button("F1's Gloves", "gloves.mp3", "GLOVE CASE OPENING (NEW CSGO UPDATE)", "https://www.youtube.com/watch?v=GLyeyiTbQBE&t=121s", false));
 CONTAINER.appendChild(generate_button("Gotta Catch 'em All!", "gotta_catch_em_all.mp3", "Pokemon GO with Anomaly (Highlights)", "https://www.youtube.com/watch?v=TKU-daPcu18&t=81s", false));
 CONTAINER.appendChild(generate_button("Hitman (kill my son)", "hitman_kill_my_son.mp3", "WE ALMOST GOT SHOT BY THE MALTA MILITARY (ALMOST DIED XD)", "https://www.youtube.com/watch?v=_jqkuWTRhRg&t=354s", false));
@@ -223,7 +224,7 @@ CONTAINER.appendChild(generate_button("Oh, Anomaly", "oh_anomaly.mp3", "ANOMALY 
 CONTAINER.appendChild(generate_button("Oolong Tea", "oolong_tea.mp3", "ANOMALY TRIES CHINESE FOOD AND SNACKS (PART 1)", "https://www.youtube.com/watch?v=nYifBSnd9SU&t=615s", false));
 CONTAINER.appendChild(generate_button("Papa Drowning in West Indies Porter", "papa_drowning_in_west_indies_porter.mp3", "PAPA TRIES THE MOST DISGUSTING BEERS", "https://www.youtube.com/watch?v=--jSourmyQ0&t=582s", false));
 CONTAINER.appendChild(generate_button("Papa Is Depressed", "papa_is_depressed.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=31s", false));
-CONTAINER.appendChild(generate_button("PEPPARKAKSHUS", "pepparkakshus.mp3", "ANOMALY BUILDS A GINGERBREAD HOUSE!", "https://www.youtube.com/watch?v=FHzSwe0lceY&t=35s", true));
+CONTAINER.appendChild(generate_button("PEPPARKAKSHUS", "pepparkakshus.mp3", "ANOMALY BUILDS A GINGERBREAD HOUSE!", "https://www.youtube.com/watch?v=FHzSwe0lceY&t=35s", false));
 CONTAINER.appendChild(generate_button("Pull A PhantomL0rd", "pull_a_phantomlord.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=249s", false));
 CONTAINER.appendChild(generate_button("Real Life Auto-Tune", "real_life_autotune.mp3", "ALEX MOVING TO MALTA", "https://youtu.be/nU29VZzjGB4?t=186", false));
 CONTAINER.appendChild(generate_button("RIP Rapacen's Mother", "rip_rapacens_mother.mp3", "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)", "https://www.youtube.com/watch?v=E7kacgom97s&t=377s", false));
@@ -234,7 +235,8 @@ CONTAINER.appendChild(generate_button("💩", "shit_hard.mp3", "OPENING FAN MAIL
 CONTAINER.appendChild(generate_button("\"Sleeping Bag\"", "sleeping_bag.mp3", "Anomaly Tries Surströmming", "https://www.youtube.com/watch?v=nCCvctadPD8&t=92s", false));
 CONTAINER.appendChild(generate_button("LV Belt Smells Good", "smell_good.mp3", "ANOMALY'S COLLECTION OF FAKE CLOUT", "https://www.youtube.com/watch?v=KK0kbCArtFY&t=421s", false));
 CONTAINER.appendChild(generate_button("Sound Check", "sound_check.mp3", "THE TRUST FACTOR EXPERIENCE 5", "https://www.youtube.com/watch?v=suIcm3T1b9E", false));
-CONTAINER.appendChild(generate_button("Thank You For Give Me The Knife", "thank_you_for_give_me_the_knife.mp3", "GIVING PAPANOMALY HIS DREAM GIFT (CHRISTMAS PART 1)", "https://www.youtube.com/watch?v=QEqJo8MYQqk&t=54s", true));
+CONTAINER.appendChild(generate_button("Spray in the 🐔", "spray_in_the_cock.mp3", "Anomaly goes to Japan (PART 1)", "https://www.youtube.com/watch?v=GKqWButuYk0&t=233s", true));
+CONTAINER.appendChild(generate_button("Thank You For Give Me The Knife", "thank_you_for_give_me_the_knife.mp3", "GIVING PAPANOMALY HIS DREAM GIFT (CHRISTMAS PART 1)", "https://www.youtube.com/watch?v=QEqJo8MYQqk&t=54s", false));
 CONTAINER.appendChild(generate_button("That Disgusting Damn Pedophile", "that_disgusting_damn_pedophile.mp3", "Halloween with Papanomaly", "https://www.youtube.com/watch?v=yckbAFrHgdM&t=487s", false));
 CONTAINER.appendChild(generate_button("The M4A1-S Has a What?", "the_shell_casing_ejaculation_port_hole_thing.mp3", "GLOVE CASE OPENING (NEW CSGO UPDATE)", "https://www.youtube.com/watch?v=GLyeyiTbQBE&t=348s", false));
 CONTAINER.appendChild(generate_button("УКРАИНА", "ukraina.mp3", "HILARIOUS MATCHMAKING HIGHLIGHTS", "https://www.youtube.com/watch?v=Jt4x7s6ieGI&t=436s", false));
