@@ -311,11 +311,16 @@ AUDIO_FILES = {
         "title": "Fußgewas Ja",
         "youtube_title": "OUR WORST VIDEO EVER (BEER REVIEW 3)",
         "youtube_url": "https://www.youtube.com/watch?v=N9_fgO4H0Hs&t=48s"
+    },
+    "how_many_points.mp3": {
+        "title": "How Many Points?",
+        "youtube_title": "TRYING HIPSTER BEER (GONE WRONG)",
+        "youtube_url": "https://www.youtube.com/watch?v=ksR7kNDRQ2Q&t=289s"
     }
 }
 
 # The last N ones will be given the "NEW" tag
-NEW_COUNT = 2
+NEW_COUNT = 4
 
 new_elements = [key for key in list(reversed(list(AUDIO_FILES)))[0:NEW_COUNT]]
 
