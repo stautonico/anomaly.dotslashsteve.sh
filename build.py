@@ -316,11 +316,16 @@ AUDIO_FILES = {
         "title": "How Many Points?",
         "youtube_title": "TRYING HIPSTER BEER (GONE WRONG)",
         "youtube_url": "https://www.youtube.com/watch?v=ksR7kNDRQ2Q&t=289s"
+    },
+    "russian_spongebob.mp3": {
+        "title": "Губка Боб Квадратные Штаны",
+        "youtube_title": "TWITCH HIGHLIGHTS 26 - F1 IS IN PRISON",
+        "youtube_url": "https://www.youtube.com/watch?v=HqshLvSQWyU&t=588s"
     }
 }
 
 # The last N ones will be given the "NEW" tag
-NEW_COUNT = 4
+NEW_COUNT = 1
 
 new_elements = [key for key in list(reversed(list(AUDIO_FILES)))[0:NEW_COUNT]]
 
