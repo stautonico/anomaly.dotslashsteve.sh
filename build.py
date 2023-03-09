@@ -321,6 +321,11 @@ AUDIO_FILES = {
         "title": "Губка Боб Квадратные Штаны",
         "youtube_title": "TWITCH HIGHLIGHTS 26 - F1 IS IN PRISON",
         "youtube_url": "https://www.youtube.com/watch?v=HqshLvSQWyU&t=588s"
+    },
+    "samz_is_a_crackhead.mp3": {
+        "title": "Samz is a Crackhead",
+        "youtube_title": "MY EDITOR MOVING TO MALTA",
+        "youtube_url": "https://www.youtube.com/watch?v=r4ojxa0CugU&t=914s"
     }
 }
 
