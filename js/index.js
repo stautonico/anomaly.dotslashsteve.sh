@@ -190,10 +190,13 @@ CONTAINER.appendChild(generate_button("Anomaly Eats 💩", "anomaly_eats_shit.mp
 CONTAINER.appendChild(generate_button("OMG Anomaly GFYS", "anomaly_gfys.mp3", "THE TRUST FACTOR EXPERIENCE 5", "https://www.youtube.com/watch?v=suIcm3T1b9E&t=699s", false));
 CONTAINER.appendChild(generate_button("Anomaly's Huge Package", "anomalys_huge_package.mp3", "OPENING A $1500 POKEMON MYSTERY BOX", "https://www.youtube.com/watch?v=XKfKM4Uq7W0&t=3s", false));
 CONTAINER.appendChild(generate_button("Because he's hung over", "because_hes_hung_over.mp3", "Halloween with Anomaly", "https://www.youtube.com/watch?v=poB_G0tHRrs&t=10s", false));
+CONTAINER.appendChild(generate_button("Boat Garash", "boat_garash.mp3", "Anomaly goes to Åland (Finland)", "https://www.youtube.com/watch?v=ttkq-7fleo0&t=574s", true));
 CONTAINER.appendChild(generate_button("Papa's Breakfast", "breakfast.mp3", "CANADIAN BEER REVIEW (EH?)", "https://www.youtube.com/watch?v=2ksXESdzt6I&t=98s", false));
 CONTAINER.appendChild(generate_button("CallMeCarson", "callmecarson.mp3", "SO WE FOUND THIS NEW SITE 1", "https://www.youtube.com/watch?v=bN6XP2yRphA&t=454s", false));
 CONTAINER.appendChild(generate_button("Can I Put Fuck On You?", "can_i_put_fuck_on_you.mp3", "RUSSIAN MATCHMAKING EXPERIENCE (RUSSIA SERVERS)", "https://www.youtube.com/watch?v=vOS-X3COxzY&t=333s", false));
 CONTAINER.appendChild(generate_button("Carlson Drowns", "carlson_drowns.mp3", "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)", "https://www.youtube.com/watch?v=E7kacgom97s&t=417s", false));
+CONTAINER.appendChild(generate_button("Check Your Garash", "check_your_garash.mp3", "Anomaly goes to Åland (Finland)", "https://www.youtube.com/watch?v=ttkq-7fleo0&t=559s", true));
+CONTAINER.appendChild(generate_button("Corporal is Good Wan", "corporal_is_good_wan.mp3", "CS:GO CASE OPENING HIGHLIGHT 1", "https://www.youtube.com/watch?v=hoRUpMIk0Qw&t=93s", true));
 CONTAINER.appendChild(generate_button("🚨 Cringe Apple User 🚨", "cringe_apple_user.mp3", "ANOMALY AND PAPA WOULD YOU RATHER..?", "https://www.youtube.com/watch?v=wUohb2oRu4U&t=133s", false));
 CONTAINER.appendChild(generate_button("Deez Nuts", "deez_nuts.mp3", "ANOMALY AND PAPA TRIES DOG FOOD (PIG INTESTINES)", "https://www.youtube.com/watch?v=W97CkZwagwE&t=371s", false));
 CONTAINER.appendChild(generate_button("Der Anal Zerstörer", "der_anal_zerstorer.mp3", "SO WE FOUND THIS NEW SITE 1", "https://www.youtube.com/watch?v=bN6XP2yRphA&t=199s", false));
@@ -231,7 +234,7 @@ CONTAINER.appendChild(generate_button("Real Life Auto-Tune", "real_life_autotune
 CONTAINER.appendChild(generate_button("RIP Rapacen's Mother", "rip_rapacens_mother.mp3", "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)", "https://www.youtube.com/watch?v=E7kacgom97s&t=377s", false));
 CONTAINER.appendChild(generate_button("Губка Боб Квадратные Штаны", "russian_spongebob.mp3", "TWITCH HIGHLIGHTS 26 - F1 IS IN PRISON", "https://www.youtube.com/watch?v=HqshLvSQWyU&t=588s", false));
 CONTAINER.appendChild(generate_button("Ёбаньlй в рот", "russian_swears.mp3", "ANOMALY EXPOSED", "https://www.youtube.com/watch?v=gHumZkhUqT4&t=334s", false));
-CONTAINER.appendChild(generate_button("Samz is a Crackhead", "samz_is_a_crackhead.mp3", "MY EDITOR MOVING TO MALTA", "https://www.youtube.com/watch?v=r4ojxa0CugU&t=914s", true));
+CONTAINER.appendChild(generate_button("Samz is a Crackhead", "samz_is_a_crackhead.mp3", "MY EDITOR MOVING TO MALTA", "https://www.youtube.com/watch?v=r4ojxa0CugU&t=914s", false));
 CONTAINER.appendChild(generate_button("Sauce Vindaloo", "sauce_vindaloo.mp3", "Opening 2 NEW Shining Fates Elite Trainer Boxes!", "https://www.youtube.com/watch?v=tNpNxOpjPMk&t=185s", false));
 CONTAINER.appendChild(generate_button("7$", "seven_dollars.mp3", "SO WE FOUND THIS NEW SITE 1", "https://www.youtube.com/watch?v=bN6XP2yRphA&t=243s", false));
 CONTAINER.appendChild(generate_button("💩", "shit_hard.mp3", "OPENING FAN MAIL 27 (CSGO PINS)", "https://www.youtube.com/watch?v=dfKZ24DW3e0&t=240s", false));
