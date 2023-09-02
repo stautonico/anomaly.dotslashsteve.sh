@@ -326,11 +326,26 @@ AUDIO_FILES = {
         "title": "Samz is a Crackhead",
         "youtube_title": "MY EDITOR MOVING TO MALTA",
         "youtube_url": "https://www.youtube.com/watch?v=r4ojxa0CugU&t=914s"
+    },
+    "check_your_garash.mp3": {
+        "title": "Check Your Garash",
+        "youtube_title": "Anomaly goes to Åland (Finland)",
+        "youtube_url": "https://www.youtube.com/watch?v=ttkq-7fleo0&t=559s"
+    },
+    "boat_garash.mp3": {
+        "title": "Boat Garash",
+        "youtube_title": "Anomaly goes to Åland (Finland)",
+        "youtube_url": "https://www.youtube.com/watch?v=ttkq-7fleo0&t=574s"
+    },
+    "corporal_is_good_wan.mp3": {
+        "title": "Corporal is Good Wan",
+        "youtube_title": "CS:GO CASE OPENING HIGHLIGHT 1",
+        "youtube_url": "https://www.youtube.com/watch?v=hoRUpMIk0Qw&t=93s"
     }
 }
 
 # The last N ones will be given the "NEW" tag
-NEW_COUNT = 1
+NEW_COUNT = 3
 
 new_elements = [key for key in list(reversed(list(AUDIO_FILES)))[0:NEW_COUNT]]
 
