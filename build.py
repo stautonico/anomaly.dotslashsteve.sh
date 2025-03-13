@@ -341,11 +341,16 @@ AUDIO_FILES = {
         "title": "Corporal is Good Wan",
         "youtube_title": "CS:GO CASE OPENING HIGHLIGHT 1",
         "youtube_url": "https://www.youtube.com/watch?v=hoRUpMIk0Qw&t=93s"
+    },
+    "milk_cartridge.mp3": {
+        "title": "Milk Cartridge",
+        "youtube_title": "RATING DISGUSTING VIEWER SETUPS WITH PAPA",
+        "youtube_url": "https://youtu.be/bXAvy5rBlDI?t=51"
     }
 }
 
 # The last N ones will be given the "NEW" tag
-NEW_COUNT = 3
+NEW_COUNT = 1
 
 new_elements = [key for key in list(reversed(list(AUDIO_FILES)))[0:NEW_COUNT]]
 
