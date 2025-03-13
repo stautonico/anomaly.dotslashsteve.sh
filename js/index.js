@@ -190,13 +190,13 @@ CONTAINER.appendChild(generate_button("Anomaly Eats 💩", "anomaly_eats_shit.mp
 CONTAINER.appendChild(generate_button("OMG Anomaly GFYS", "anomaly_gfys.mp3", "THE TRUST FACTOR EXPERIENCE 5", "https://www.youtube.com/watch?v=suIcm3T1b9E&t=699s", false));
 CONTAINER.appendChild(generate_button("Anomaly's Huge Package", "anomalys_huge_package.mp3", "OPENING A $1500 POKEMON MYSTERY BOX", "https://www.youtube.com/watch?v=XKfKM4Uq7W0&t=3s", false));
 CONTAINER.appendChild(generate_button("Because he's hung over", "because_hes_hung_over.mp3", "Halloween with Anomaly", "https://www.youtube.com/watch?v=poB_G0tHRrs&t=10s", false));
-CONTAINER.appendChild(generate_button("Boat Garash", "boat_garash.mp3", "Anomaly goes to Åland (Finland)", "https://www.youtube.com/watch?v=ttkq-7fleo0&t=574s", true));
+CONTAINER.appendChild(generate_button("Boat Garash", "boat_garash.mp3", "Anomaly goes to Åland (Finland)", "https://www.youtube.com/watch?v=ttkq-7fleo0&t=574s", false));
 CONTAINER.appendChild(generate_button("Papa's Breakfast", "breakfast.mp3", "CANADIAN BEER REVIEW (EH?)", "https://www.youtube.com/watch?v=2ksXESdzt6I&t=98s", false));
 CONTAINER.appendChild(generate_button("CallMeCarson", "callmecarson.mp3", "SO WE FOUND THIS NEW SITE 1", "https://www.youtube.com/watch?v=bN6XP2yRphA&t=454s", false));
 CONTAINER.appendChild(generate_button("Can I Put Fuck On You?", "can_i_put_fuck_on_you.mp3", "RUSSIAN MATCHMAKING EXPERIENCE (RUSSIA SERVERS)", "https://www.youtube.com/watch?v=vOS-X3COxzY&t=333s", false));
 CONTAINER.appendChild(generate_button("Carlson Drowns", "carlson_drowns.mp3", "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)", "https://www.youtube.com/watch?v=E7kacgom97s&t=417s", false));
-CONTAINER.appendChild(generate_button("Check Your Garash", "check_your_garash.mp3", "Anomaly goes to Åland (Finland)", "https://www.youtube.com/watch?v=ttkq-7fleo0&t=559s", true));
-CONTAINER.appendChild(generate_button("Corporal is Good Wan", "corporal_is_good_wan.mp3", "CS:GO CASE OPENING HIGHLIGHT 1", "https://www.youtube.com/watch?v=hoRUpMIk0Qw&t=93s", true));
+CONTAINER.appendChild(generate_button("Check Your Garash", "check_your_garash.mp3", "Anomaly goes to Åland (Finland)", "https://www.youtube.com/watch?v=ttkq-7fleo0&t=559s", false));
+CONTAINER.appendChild(generate_button("Corporal is Good Wan", "corporal_is_good_wan.mp3", "CS:GO CASE OPENING HIGHLIGHT 1", "https://www.youtube.com/watch?v=hoRUpMIk0Qw&t=93s", false));
 CONTAINER.appendChild(generate_button("🚨 Cringe Apple User 🚨", "cringe_apple_user.mp3", "ANOMALY AND PAPA WOULD YOU RATHER..?", "https://www.youtube.com/watch?v=wUohb2oRu4U&t=133s", false));
 CONTAINER.appendChild(generate_button("Deez Nuts", "deez_nuts.mp3", "ANOMALY AND PAPA TRIES DOG FOOD (PIG INTESTINES)", "https://www.youtube.com/watch?v=W97CkZwagwE&t=371s", false));
 CONTAINER.appendChild(generate_button("Der Anal Zerstörer", "der_anal_zerstorer.mp3", "SO WE FOUND THIS NEW SITE 1", "https://www.youtube.com/watch?v=bN6XP2yRphA&t=199s", false));
@@ -222,6 +222,7 @@ CONTAINER.appendChild(generate_button("I Want Fuck", "iwantfuck.mp3", "DRAWING W
 CONTAINER.appendChild(generate_button("Let Me Hit A Bullet", "let_me_hit_a_bullet.mp3", "TWITCH HIGHLIGHTS 30 - OBAMA MOMENT", "https://www.youtube.com/watch?v=JmonvSPRhnY&t=536s", false));
 CONTAINER.appendChild(generate_button("Matchmaking In The Zoo", "matchmaking_in_the_zoo.mp3", "TWITCH HIGHLIGHTS 25 - 6480° TRICKSHOT (18 SPINS)", "https://www.youtube.com/watch?v=E7kacgom97s&t=441s", false));
 CONTAINER.appendChild(generate_button("🍉", "melons.mp3", "FREE TO PLAY \"COUNTER-STRIKE\" GAMES 2", "https://www.youtube.com/watch?v=LiDmJ3UuItM&t=589s", false));
+CONTAINER.appendChild(generate_button("Milk Cartridge", "milk_cartridge.mp3", "RATING DISGUSTING VIEWER SETUPS WITH PAPA", "https://youtu.be/bXAvy5rBlDI?t=51", true));
 CONTAINER.appendChild(generate_button("MIN TELEFON", "min_telefon.mp3", "PAPANOMALY OPENING FAN MAIL 9", "https://www.youtube.com/watch?v=nZ1W6NBp9iU&t=211s", false));
 CONTAINER.appendChild(generate_button("Obama Moment", "obama_moment.mp3", "TWITCH HIGHLIGHTS 30 - OBAMA MOMENT", "https://www.youtube.com/watch?v=JmonvSPRhnY&t=403s", false));
 CONTAINER.appendChild(generate_button("Oh, Anomaly", "oh_anomaly.mp3", "ANOMALY GOES TO AFRICA", "https://www.youtube.com/watch?v=FDWrgsmj2wg&t=430s", false));
